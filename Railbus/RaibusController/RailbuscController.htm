@@ -1,0 +1,407 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Railbus Controller</title>
+<style type="text/css">
+.style5 {
+	font-family: Arial;
+	font-size: x-small;
+}
+.style10 {
+	font-family: Arial;
+	font-size: medium;
+}
+.style11 {
+	text-align: center;
+}
+.style16 {
+	text-align: left;
+}
+.style18 {
+	font-size: medium;
+}
+.style13 {
+	text-align: center;
+	font-family: Arial;
+	font-size: medium;
+}
+.style19 {
+	font-family: Arial;
+}
+</style>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="1" style="width: 1000">
+    <tr>
+      <td class="style11">
+        <p align="center">
+		<div class="style16">
+			<span class="style5"><font face="Arial" size="2">
+			<table style="width: 100%">
+				<tr>
+					<td class="style16">
+					<div class="style11">
+		<span class="style5"><font face="Arial"><b><font size="6">Railbus 
+						Controller
+					<br></font></b><font face="Arial" size="2">Nelson Riedel,
+		<a href="mailto:Nelson@NelsonsLocomotive.com">
+		Nelson@NelsonsLocomotive.com</a><br>3/20/2017, last updated </font>
+		</font><font face="Arial" size="2">
+		<!--webbot bot="Timestamp" s-format="%m/%d/%Y" s-type="EDITED" startspan -->05/28/2017<!--webbot bot="Timestamp" endspan i-checksum="12645" --><br>&nbsp;<div class="style16">
+							<span class="style18">
+							<table style="width: 100%">
+								<tr>
+									<td>
+							<span class="style18">
+			<span class="style5"><font face="Arial" size="2">
+							<table style="width: 100%">
+								<tr>
+									<td><span class="style18">
+									<span class="style19">
+									<font face="Arial">
+						As discussed in the overview, the old controller went up 
+						in smoke last fall,&nbsp; RIP.&nbsp;&nbsp; I couldn't get 
+						the interest up over the winter to rebuild it.&nbsp; 
+									Last fall I saw the controller that Laura and 
+									Dominik of Integral Circuits made for the 
+									small Critter Locomotives&nbsp; Dick McCloy 
+									and Mike Price were making.&nbsp;&nbsp; It left 
+									a good impression, especially the physical 
+									packaging.&nbsp; I looked up the specs on 
+									their website (<a href="http://www.integralcircuits.com">www.integralcircuits.com</a> 
+									-the specific controller is Model CC 50A).&nbsp; 
+									It does 50 amps continuous for 1080 watts at 
+									24 volts and my motors are 500 watts each.&nbsp;&nbsp; 
+									Called Laura and she said she could send me 
+									one in a week and it arrived in a week.&nbsp;&nbsp; 
+									Rather than describing the system I just 
+									copied stuff from their website:&nbsp; </font>
+									</span>
+						</span>
+									<br class="style18"><br class="style18">
+									<img height="882" src="ControllerSpecs.jpg" width="1000" class="style18"><br class="style18">
+									<br class="style18"><br class="style18">
+									<img height="519" src="ConnectionsOverview.jpg" width="1000" class="style18"><br class="style18">
+									<br class="style18"><br class="style18">
+									<br class="style18"><br class="style18">
+									<img height="857" src="RemoteControl.jpg" width="1000" class="style18"><br class="style18">
+									<br class="style18">
+									<img height="916" src="CC_wiringBasic.jpg" width="1000" class="style18"> 
+									<br class="style18"><br class="style18">
+									<span class="style18">There is a neat wiring diagram on the 
+									Integral Circuits website (l</span><a href="http://www.integralcircuits.com/manuals/CC_wiring.jpg"><span class="style18">ink 
+									to diagram</span></a><span class="style18">) that shows all the 
+									connections including the optional 
+									accessories.&nbsp; To simplify this 
+									description&nbsp; I 
+									removed all the wiring for the accessories 
+									in the drawing above and kept only what is necessary to get it up 
+									and running.&nbsp; I used a 90 amp 28 volt 
+									breaker instead of the main fuse.&nbsp; I 
+									used a 70 amp 28 volt breaker in the 
+									positive lead to both motors instead of the 
+									individual 30 amp fuses.&nbsp;&nbsp;&nbsp; 
+									The main breaker is also the main power 
+									switch.&nbsp; The motor breaker is normally 
+									left on but is useful to disconnect the 
+									motors when towing.&nbsp;&nbsp;&nbsp; </span> 
+									<br class="style18">
+									<br class="style18">
+									<img height="924" src="SpeedSensor.jpg" width="1000" class="style18"><br class="style18">
+									<br class="style18">
+									<table style="width: 100%">
+										<tr>
+											<td><span class="style18">The controller arrived before I 
+											finished making a number of repairs 
+											and the drive unit was still off the 
+											frame.&nbsp;&nbsp; Great, I could 
+											install the speed sensor as 
+											described on page 26 of the manual 
+											and repeated on the right.&nbsp; The 
+											sensor is a magnetic reed switch that is 
+											encapsulated in a ~3/8&quot; diameter 
+											plastic bolt and held in position by 
+											a pair of plastic nuts.&nbsp;&nbsp; 
+											The magnet is 5/16&quot; diameter and 
+											about 3/16&quot; thick and really strong.&nbsp; 
+											The end of the sensor is positioned 
+											about 1/8&quot; from the magnet. 
+											</span> <br class="style18">
+											<br class="style18">
+											<span class="style18">I would have preferred to mount the 
+											sensor above the motor mount 
+											platform but there is no room so I 
+											had to put it underneath as shown in 
+											photo.&nbsp;&nbsp;&nbsp; A concern 
+											was that I'd wipe off the sensor the 
+											first time I derailed so I made the 
+											pictured mount from a piece of easy 
+											strut and 1/2&quot; angle.&nbsp;&nbsp; 
+											The wire feeds up through a hole in 
+											the mount platform and is bundled 
+											with the motor wires to get to the 
+											controller.&nbsp;&nbsp; The 
+											controller was later set up for the 
+											correct wheel size.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											</span>
+											</td>
+											<td>
+											<img height="533" src="SpeedSensorInstall.jpg" width="600" class="style18"></td>
+										</tr>
+									</table>
+									<br class="style18">
+									<img height="827" src="ControllerINstall1.jpg" width="999" class="style18"><br class="style18">
+									<br class="style18">
+									<span class="style18">This shows the controller installed on the 
+									plastic drive cover.&nbsp;&nbsp; The 
+									controller is attached to a 1/2&quot; aluminum 
+									angle with Nylock nuts on two of the studs 
+									protruding from 
+									the case.&nbsp; The 24 volt 
+									power enters via the terminal block on the left.&nbsp;&nbsp; 
+									The motor and speed sensor wires come up 
+									through the channel behind the mount cover.&nbsp; 
+									The motor wires connect to the terminal 
+									block on the right and the speed sensor&nbsp; 
+									cable plugs into the controller (small red &amp; 
+									white wires).&nbsp;&nbsp; That is the motor 
+									circuit breaker mounted on the back of the 
+									drive cover. The heavy (I used 12 gauge 
+									stranded) wires connect to the controller 
+									via provided barrel connectors soldered to 
+									the ends of the wire.&nbsp; These connectors 
+									are really neat.&nbsp;&nbsp; I questioned 
+									the reliability but was assured that they 
+									are reliable --- and quite expensive.&nbsp; 
+									After everything was connected I found the 
+									motors ran backward&nbsp; so I reversed the 
+									motor wires in a couple seconds.&nbsp;&nbsp; 
+									That brass hex rod sticking up is a really 
+									tall head for one of the two 6-32 screws that 
+									secure the drive cover. The cover must be 
+									removed to reinstall and/or adjust the chain 
+									so quick and easy removal is a must.&nbsp;
+									</span>
+									<br class="style18"><br class="style18">
+									<img height="918" src="ControllerInstal2.jpg" width="1000" class="style18"><br class="style18">
+									<br class="style18"><br class="style18">
+									<span class="style18">This is looking down on the 
+									controller after the body was 
+									installed.&nbsp; Laura suggested the neat 
+									fuse block available from MCM Electronics&nbsp; 
+									(</span><a href="http://www.mcmelectronics.com/product/MULTICOMP-PPFH-76ATO6-/28-76ATO6"><span class="style18">link</span></a><span class="style18">).&nbsp;&nbsp; 
+									The power connection to the block is via a 
+									bare stud and bar.&nbsp; I covered the stud 
+									with heat shrink and the bar with silicone 
+									caulk.&nbsp;&nbsp; I don't find low voltages 
+									such as 24 volts intimidating.&nbsp;&nbsp;&nbsp; 
+									However, I am intimidated by the high 
+									current capability of the batteries that can 
+									instantly turn a dropped tool into a welder.&nbsp; 
+									Hence, I try to keep all exposed terminals 
+									covered. </span> <br class="style18">
+									<br class="style18"><span class="style18">That is the radio unit 
+									setting on the controller.&nbsp; It comes 
+									with ~3' cable that is probably useful if 
+									the controller is buried in the bowels of a 
+									steel bodied locomotive.&nbsp; The railbus 
+									body and roof is mostly wood so that is a 
+									good place to put it.&nbsp;&nbsp; There are 
+									no attachment tabs so Duct Tape will be 
+									used.&nbsp; (Every project needs Duct Tape 
+									someplace.) </span> <br class="style18">
+									<br class="style18"><span class="style18">So --- how did it run.&nbsp;&nbsp; 
+									Ran great in the shop --- once I released 
+									the brakes.&nbsp; Once the wheel size was 
+									entered via the setup menu the top speed 
+									registered at just less than 10 mph matching 
+									the calculations in the Drive section. 
+									</span> <br class="style18">
+									<br class="style18"><span class="style18">It was off to the Mill Creek Central 
+									track for a real test.&nbsp; Dick McCloy 
+									jointed me for a really real test (it 
+									only groaned a little).&nbsp;&nbsp; Ran 
+									perfectly.&nbsp;&nbsp; Did a lot of testing 
+									of the throttle controlled slow down on 
+									the steep grades and it worked as advertised 
+									and far better than I expected.&nbsp; The&nbsp; 
+									E-STOP feature&nbsp; brought the locomotive 
+									to a nearly complete stop in 20 or 30 feet.&nbsp; 
+									This is as fast as I could stop by locking 
+									up the brakes since I have to reach for the 
+									brake handle which eats up 10 or 20 feet --- 
+									if I find it quickly.&nbsp; </span> 
+									<br class="style18"><br class="style18">
+									<span class="style18">Did a 
+									lot of observing of the battery voltage to 
+									see if it appeared charge was going back 
+									into the battery when going down grade -- and&nbsp; 
+									it appeared to be working.&nbsp;&nbsp; Need 
+									to install an ammeter to get a better 
+									evaluation. </span> <br class="style18">
+									<br class="style18"><span class="style18">As expected I confirmed 
+									that I need to keep the air brakes for at 
+									least the park brake function.&nbsp;&nbsp; 
+									Going to consider using one of 
+									Integral Circuit's Brake Controllers. </span> 
+									<br class="style18">&nbsp;<br class="style18">
+									<span class="style18">I did about ten miles total on the first run 
+									and then got bored.&nbsp; Brought it home to 
+									finish dealing with the accessories and 
+									install an ammeter. </span> 
+									<br class="style18"><br class="style18">
+									<span class="style18">At this point 
+									the controller is exceeding expectations.&nbsp;&nbsp; 
+									Will update this after I get some current 
+									readings.&nbsp;&nbsp; The accessories are 
+									described in the accessories section.&nbsp;&nbsp;&nbsp;&nbsp;</span><br class="style18">
+									<hr><strong>
+									<span class="style18"><br>More Data (4/22/2017):</span><br class="style18">
+									<br class="style18">
+									</strong><span class="style18">Today I did another test run at 
+									Mill Creek Central.&nbsp;&nbsp; The addition 
+									of brakes, light and horn via the handset 
+									are great!&nbsp;&nbsp;&nbsp; These features 
+									are discussed in the 
+									Accessories Page.&nbsp; The big deal at this point is 
+									the ammeter.</span><br class="style18">
+									<br class="style18"><span class="style18">The analog ammeter is 
+									zero center and plus minus 100 amps full 
+									scale.&nbsp;&nbsp;&nbsp; A momentary switch 
+									changes the scale to plus &amp; minus 20 amps full 
+									scale.</span><br class="style18">
+									<br class="style18"><span class="style18">I did some runs&nbsp;at half 
+									power and the speed was just around 4.8 mph on 
+									a flat track.&nbsp;&nbsp; On a 3 % up grade 
+									grade the speed dropped to about 4 mph and 
+									it went up to about 6 mph on a 3% down 
+									grade.&nbsp; These are approximate.&nbsp; I 
+									was alone on the railbus.</span><br class="style18">
+									<br class="style18"><span class="style18">The current 
+									readings were very interesting.&nbsp; On the 
+									level track&nbsp; at half throttle the 
+									current was about 10 amps and dropped to 
+									near zero on a slight down grade.&nbsp; The 
+									current&nbsp; went up 
+									significantly for steeper grades reaching 30 to 
+									40 amps on a 3% grade.&nbsp;&nbsp;&nbsp; At 
+									one point on the 6% grade of the logging 
+									line it went to current limit of ~ 70 amps 
+									but kept pulling.&nbsp;&nbsp;&nbsp;
+									</span>
+									<br class="style18"><br class="style18">
+									<span class="style18">On the steeper down grades 
+									significant current went back in the 
+									batteries from the regenerative process.&nbsp; 
+									This&nbsp; was as high as 5 to 10 amps 
+									on the 2%-3% down grades to 20 amps on the 6% 
+									down grade on the logging line.&nbsp;&nbsp;&nbsp;&nbsp; 
+									The regenerative action did limit the 
+									increase in speed to maybe 25%-30%.&nbsp;&nbsp; 
+									(I'm now a believer.)</span><br class="style18">
+									<br class="style18"><span class="style18">One thing I 
+									observed was that the current didn't change 
+									much&nbsp; as the throttle was increased (there 
+									was a spike initially but then it settled 
+									down to about the same current).&nbsp;&nbsp;&nbsp; 
+									This makes sense&nbsp; --- current is 
+									proportional to the required torque and  
+									torque is a function of the 
+									load.&nbsp;&nbsp; Speed is related to the 
+									voltage.&nbsp; As the voltage increases the 
+									speed increases.&nbsp;&nbsp; Power is speed 
+									X torque and voltage X current.&nbsp; Makes 
+									sense. </span> <br class="style18">
+									<br class="style18"><span class="style18">The bus seemed to run much 
+									smoother at the higher power settings.&nbsp;&nbsp; 
+									I also verified that the top speed of nearly 10 
+									mph is really too fast.&nbsp;&nbsp;&nbsp; It 
+									looks like I can replace the 60 tooth axel 
+									sprocket with a 70 tooth sprocket.&nbsp;&nbsp; 
+									That would reduce the top speed 16% and also 
+									increase the torque 16%.&nbsp;&nbsp;&nbsp; 
+									That is worth doing!&nbsp;&nbsp;<br><hr><br>
+									<strong>More Data (5/27/17):</strong><br>The 
+									drive is now equipped with a 70 tooth 
+									sprocket.&nbsp; Bench testing in the shop showed 
+									the no load top speed at 8 mph, about as 
+									expected.&nbsp; The no load current for both 
+									motors in parallel is about 6 amps.&nbsp; That is 
+									the no-load starting current listed on the 
+									motor performance graph for one motor.&nbsp; These motors 
+									should be a bit worn and loose.<br><br>Tests 
+									at the track showed the anticipated 
+									increased in torque/reduced current.&nbsp;&nbsp; 
+									The key performance indicator was that the 
+									wheels slipped before the controller went to 
+									current limit.&nbsp;&nbsp; That was with one 
+									rider.&nbsp;&nbsp; The controller seems to 
+									be a really good match to the motors. <br>
+									<br>At this point the controller exceeds all 
+									expectations.&nbsp; &nbsp;&nbsp;&nbsp;
+									<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+									</span> <br class="style18"><br></td>
+								</tr>
+							</table>
+						
+								
+							
+						<table style="width: 100%">
+							<tr>
+								<td><span class="style10">
+						<table style="width: 100%">
+							<tr>
+								<td>
+			<span class="style5"><font face="Arial" size="2">
+		
+ 
+      				<span class="style10">
+				<p class="style13">Additional design information is at the following 
+		links:</p>
+				<p class="style13"><a href="../RailbusOverview.htm">Return to 
+				Railbus Overview</a><br>
+				<a href="../RailbusFrame/RailbusFrame.htm">Railbus Frame</a><br>
+							<span class="style18">
+						<a href="../RailbusDrive/RailbusDrive.htm">Railbus Drive</a></span><br>
+				<a href="../RailbusBody/RailbusBody.htm">Railbus Body</a><br>
+				<a href="../RailbusChargers/RailbusCharger.htm">Railbus Chargers</a><br>
+				<a href="../Railbus%20Accessories/RailbusAccessories.htm">
+				Railbus Accessories</a><br></p>
+								<p class="style13"></span></font></span>								<p class="style13">
+								&nbsp;</p>
+
+
+				
+		
+		
+								</td>
+							</tr>
+						</table>
+			<span class="style5"><font face="Arial" size="2">
+      <table border="0" cellpadding="0" cellspacing="1" width="100%">
+        <tr>
+          <td width="50%">
+            <p align="center"><font face="Arial" size="5">
+            <a href="../../index.htm">NLW
+            Home</a></font></td>
+          <td width="50%">
+            <p align="left"><font face="Arial"><a href="../index.htm">
+			<img border="0" src="../../Climax1.jpg" width="200" height="79"></a></font></td>
+        </tr>
+      </table>
+  
+
+									
+						<br>
+						
+						
+  
+

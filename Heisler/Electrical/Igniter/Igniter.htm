@@ -1,0 +1,157 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Heisler Igniter</title>
+<style type="text/css">
+.style1 {
+	font-size: small;
+}
+.style2 {
+	font-family: Arial;
+}
+.style3 {
+	font-size: small;
+	font-family: Arial;
+}
+.style4 {
+	font-size: small;
+	font-family: Arial;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="1" width="644">
+    <tr>
+      <td width="724">
+        <p align="center"><font face="Arial"><b><font size="6">Heisler 
+		Igniter</font><font face="Arial" size="5"><br>
+        </font>
+        </b><font face="Arial" size="2">Nelson Riedel, <a href="mailto:Nelson@NelsonsLocomotive.com">Nelson@NelsonsLocomotive.com</a><br>
+        2/21/2010, last updated </font></font><font size="2" face="Arial">
+        <!--webbot
+        bot="Timestamp" S-Type="EDITED" S-Format="%m/%d/%Y" startspan -->02/21/2010<!--webbot
+        bot="Timestamp" endspan i-checksum="12513" -->
+        </font></p>
+        <p class="style1">
+        &nbsp;<span class="style2">The igniter on the shay uses a 6 volt battery 
+		(4 D cells) and an electronic circuit to pulse a 6 volt motorcycle coil 
+		(see <a href="../../../Shay/Electrical/ElectricalI/ElectricalI.htm">Shay 
+		Electrical I</a>.)&nbsp; That 
+		igniter has worked flawlessly.&nbsp; However, on the Heisler I want to 
+		use&nbsp; a 
+		more standard 12 volt battery.&nbsp; That electronic circuit can't be 
+		used on voltages greater than 6 volts.&nbsp;&nbsp; Rather than redesign 
+		that circuit I decided to make a simple pulser using&nbsp; inexpensive 
+		12 volt relays from Radio Shack.&nbsp;&nbsp;This design is 
+		not original; similar designs have been around for years.&nbsp; </span></p>
+		<p class="style4">
+        <img height="930" src="Igniter1.jpg" width="630"></p>
+		<p class="style3">
+        The igniter wiring diagram is shown above.&nbsp;
+        &nbsp;</p>
+		<p class="style3">
+        &nbsp;On the relays, terminals 7 &amp; 8 are the coil. Terminals 1,3 &amp; 5 are one 
+		contact set and 2, 4 &amp; 6 the other contact set. &nbsp;</p>
+		<p align="left" class="style2">The parts I used are: <br>
+		<br class="style2"><span class="style2">• Auto Coil --- Autozone 
+		Duralast # C819.&nbsp; Any 6 to 12 volt motorcycle or auto coil is OK <br> </span>
+		<br class="style2"><span class="style2">• Long electrode spark plug for 
+		Salamander type heater from Ace Hardware <br> </span><br class="style2">
+		<span class="style2">• 2 – 12 volt DPDT relays --- Radio Shack # 275-218
+		<br>
+		</span><br class="style2"><span class="style2">• 2- sockets for relays 
+		---- Radio Shack #275-220 <br> </span><br class="style2">
+		<span class="style2">• 1 – 5 ohm 10 watt resistor ----- I used 2 Radio 
+		Shack #271-132 10 ohm 10 watt resistors connected in parallel <br> </span>
+		<br class="style2"><span class="style2">• 1 ~ 0.2 uF capacitor --- I 
+		used 2 Radio Shack 272-1053 0.1uF capacitors connected in parallel <br>
+		</span><br class="style2"><span class="style2">• Auto type spark plug 
+		wire --- haven’t secured yet.<br>&nbsp;</span><br class="style2">
+		<span class="style2">• Push button normally open switch – Radio Shack # 
+		275-609 looks like what I used on the Shay. <br> </span><br class="style2">
+		<span class="style2">• On-off switch --- haven’t purchased yet- Radio 
+		shack has a number of suitable choices. <br> </span><br class="style2">
+		<span class="style2">• Fuse holder --- will use Radio Shack #270-1237 
+		mini blade fuse holder with #270-1089 3 amp fuse. </span>
+		<br class="style2"><br class="style2"><br class="style2">
+		<span class="style2">The operation is as follows:<br></span><br class="style2">
+		<span class="style2">1. When the push button switch is operated there is 
+		a current path from the positive battery terminal through the fuse &amp; 
+		power switch then through the lower relay coil (terminals&nbsp; 8 &amp; 7), through 
+		Normally Closed (NC) contacts (tweminals 2 &amp; 6) on the upper relay, through the push 
+		button switch to negative battery.&nbsp; The current flow through the lower relay 
+		coil will cause it to operate.</span><br class="style2">
+		<br class="style2"><span class="style2">2. When the lower relay operates 
+		there is a current path from the positive battery terminal through the 
+		fuse and power switch and then through the upper relay coil (terminals 8 &amp; 
+		7) through the normally open (NO) contacts (terminals 4 &amp; 6) of the lower relay 
+		(which are now closed because the lower relay is operated) to the 
+		negative battery terminal. Current flow through the upper relay coil 
+		will cause it operate.</span><br class="style2"><br class="style2">
+		<span class="style2">3. When the upper relay operates, the NC contacts 
+		(terminals 2 
+		&amp; 6) will open interrupting the current flow through the lower relay coil 
+		causing it to release.</span><br class="style2"><br class="style2">
+		<span class="style2">4. When the lower relay releases, the NO contacts 
+		(terminals 4 
+		&amp; 6) on the lower rely will open interrupting the current flow through 
+		the upper relay coil causing it to release.</span><br class="style2">
+		<br class="style2"><span class="style2">This sequence 
+		is Lower operates – Upper operates – Lower releases – Upper releases. 
+		The relays will operate and release rapidly which makes a buzzing sound.
+		</span><br class="style2"><br class="style2"><span class="style2">The 
+		coil (+) terminal is supplied power from the positive battery terminal 
+		through the 5 ohm resistor (note that I used two 10 ohm resistors in 
+		parallel to make a 5 ohm resistor). The (–) coil terminal on the coil 
+		connects through NO terminals 3 &amp; 5 of the lower relay to the negative 
+		battery terminal. The opening and closing of terminals 3 &amp; 
+		5 on the lower relay is similar to that of points on older auto engines 
+		and will pulse the coil causing it to put out a ~ 30 K volt pulse to the spark plug 
+		causing it to spark. </span><br class="style2"><br class="style2">
+		<span class="style2">The ~ 0.2 uF capacitor (two 0.1 uF capacitors in 
+		parallel) limits the voltage spike and arching across the lower relay 
+		contacts on terminals 3 &amp; 5 which would eventually destroy the contacts 
+		if the arching is not suppressed.&nbsp;&nbsp; The capacitor also serves 
+		to shape the pulse delivered to the coil and on to the sparkplug making 
+		for a much greater spark. </span><br class="style2">
+		<br class="style2"><span class="style2">I found it best to wire up the 
+		relays and get them to buzz and then add the wiring to the coil.</span></p>
+		<p align="left">
+		<img height="459" src="Igniter2.jpg" width="700" class="style2"></p>
+		<p align="left" class="style2">&nbsp;</p>
+		<p align="left"><span class="style2">The photo shows all the parts except the power 
+		switch. I’ll probably tape the two large power resistors to the side of 
+		the coil. The relay sockets were mounted in a scrap piece of thin 
+		aluminum angle. The angle will be cut to the required length once I 
+		figure out exactly how to mount it.</span><br class="style2">
+		<br class="style2"> </p>
+		<p align="left" class="style3">Several folks have successfully built 
+		this pulser and I've seen it used on a propane fired Shay.&nbsp; </p>
+		<p align="left" class="style2">&nbsp;</p>
+      <table border="0" cellpadding="0" cellspacing="1" width="100%">
+        <tr>
+          <td width="50%">
+            <p align="center"><font face="Arial" size="5">
+			<a href="../../heisler.htm">Heisler Project</a><br>
+            <a href="../../../index.htm">NLW
+            Home</a></font></td>
+          <td width="50%">
+            <p align="left">
+			<img height="79" src="../../../Climax1.jpg" width="200" class="style2"></td>
+        </tr>
+      </table>
+  <center>
+  <p></p>
+  </center>
+
+
+</body>

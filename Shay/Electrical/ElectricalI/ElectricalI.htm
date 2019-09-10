@@ -1,0 +1,412 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Shay Electrical I - Igniter & Battery</title>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="1" width="720">
+    
+    <tr>
+      <td>
+        <p align="center"><font face="Arial"><b><font size="6">Shay Electrical
+        Part I - Igniter &amp; Battery&nbsp;<br>
+        </font><font size="2">Nelson Riedel <a href="mailto:Nelson@NelsonsLocomotive.com">Nelson@NelsonsLocomotive.com</a></font><br>
+        </b><font size="2">Initial: 04/14/04 Last Revised: <!--webbot
+        bot="Timestamp" S-Type="EDITED" S-Format="%m/%d/%Y" startspan -->10/07/2004<!--webbot
+        bot="Timestamp" i-CheckSum="12597" endspan --></font></font></p>
+      </center>
+      <p align="left">There are two electrical requirements for the shay:</p>
+      <ul>
+        <li>
+          <p align="left">An igniter to relight the oil burner.&nbsp;<br>
+          <br>
+        </li>
+        <li>
+          <p align="left">&nbsp;Headlamps on both ends and
+          possibly cab lights to illuminate gauges.&nbsp;&nbsp; (The local folks run their locomotives after dark
+          so
+          working lamps are a
+          necessity.)&nbsp;</li>
+      </ul>
+      <p align="left">The igniter and battery are discussed in this part and the
+      lights will be covered in subsequent parts.</p>
+      <p align="left">Unfortunately,&nbsp; no thought&nbsp; had been given to power generation or
+      storage during the locomotive construction.&nbsp;
+      There is no room for a small auto/motorcycle/lawn equipment type battery.&nbsp;&nbsp;
+      The best alternative seems to be to stuff (hide) some D
+      size cells between the tender frame members.&nbsp;&nbsp; That should be
+      sufficient since there's no kids to leave the lights turned on.&nbsp; However, care must be taken to get
+      maximum efficiency to extend battery life. To that end an electronically
+      controlled 6 volt motorcycle coil was selected for the igniter and LED
+      arrays for the lamps.&nbsp; Most the LEDs used in flashlights require&nbsp;
+      ~3.9 volts each but can be
+      arranged in parallel/series combinations of&nbsp; LEDs and resistors to
+      form an array that will work at about any voltage greater than 3.9 volts.&nbsp;&nbsp; The motorcycle
+      coil was the least expensive small coil I could find so that fixes the
+      voltage at&nbsp; 6 volts or slightly less.&nbsp; Four regular 1.5 volt D
+      cells gives 6 volts or four 1.2 volt NiCad or NiMH cells could&nbsp;
+      be used to give 4.8 volts which would probably work or a fifth cell added
+      to get 6 volts.&nbsp;&nbsp; I decided to start out with the four 1.5 volt cells and see how that worked out.&nbsp; If battery replacement&nbsp; becomes too
+      expensive, I can switch to rechargeable batteries later.&nbsp;</p>
+      <p align="left"><b>Igniter:&nbsp; </b>The igniter was viewed as the highest
+      priority electrical item so it was constructed first. ( A large flashlight
+      could be duct tapped to the front sill if needed before the headlamp is
+      finished.)&nbsp; Dave Johnson provided much advice on the burner as
+      well as the
+      spark plug type and plug position as documented in the
+      <a href="../../Fire/BurnerTestMods/TestsBurnerMods.htm">Burner
+      Test &amp; Modification Page</a> .&nbsp; He also advised that most people
+      use a Model T type coil that gives hundreds of sparks per second.&nbsp;&nbsp;</p>
+      <p align="left">I'd heard references to Model T coils in a way that
+      suggested that they were something special.&nbsp; Being an Electrical
+      Engineer I attributed this to a myth or urban legend passed on by the
+      uninformed.&nbsp;&nbsp; Dave said that Model T coils were
+      available from <a href="http://www.macsautoparts.com/">Mac's Auto Parts</a>.&nbsp;&nbsp;
+      I checked out the coils at Mac's and found that four coils were used (one
+      per cylinder) and the coils had contact points.&nbsp; Along the way I
+      heard the term buzz coil applied to the Model T coil.&nbsp; At this point it
+      sounded like they were indeed different; more than just a coil (my
+      previous view was
+      wrong --- not the first time).&nbsp; I then speculated the distributor
+      distributed to the coil primary (6 volts) and that each coil was equipped with a vibrator
+      (buzzer) to continuously pulse the coil whenever power was applied.&nbsp;&nbsp; A&nbsp; later
+      conversation with my
+      older brother confirmed the coils were self pulsing.&nbsp;(He also provided some tales about mischief with these coils in his youth.)&nbsp;
+      The
+      Model T coil sounded great but seemed to be
+      larger than I wanted and I suspected that mechanical buzzer/pulser
+      consumed significant power.&nbsp;</p>
+      <p align="left">A subsequent Internet search&nbsp; found <a href="http://www.jerry-howell.com/Ignition.html">Jerry
+      E Howell's</a> website serving ignition needs of small model
+      gasoline engines.&nbsp;&nbsp; Howell offers small coils and a kit to make
+      an electronic circuit to pulse (buzz) one of his small coils or a 6 volt
+      motorcycle coil.&nbsp; The buzzer kit and a few
+      feet of small plug wire were purchased from Howell.&nbsp;&nbsp; A 6 volt
+      motorcycle coil was purchased from the <a href="http://www.jcwhitney.com">J C Whitney</a>
+      website.&nbsp;&nbsp; The size wasn't listed but it turned out to be
+      smaller than a typical auto coil as hoped. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;</p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720">
+          <tr>
+            <td>This is the J C Whitney 6 volt motorcycle coil. &nbsp; The total length to the tip is 5.5&quot;.&nbsp; The
+              can diameter is 1.5&quot; and the lip diameter is 1.875&quot;.</td>
+            <td width="350"><img border="0" src="Coil.jpg" width="350" height="177"></td>
+          </tr>
+          <tr>
+            <td>This is the pulser circuit from Jerry Howell.&nbsp; The kit
+              includes all the parts shown except for the wire.&nbsp; It is easy
+              to follow the instructions to assemble the circuit using a small (~
+              35 watt) pencil soldering iron.&nbsp; For you
+              electronic types, the circuit uses a 555 timer configured as a free running
+              oscillator that drives a 3-transistor amplifier that in turn drives
+              the coil.&nbsp;&nbsp; The output transistor has a very high
+              breakdown voltage suitable for working with the coil.&nbsp; The circuit is turned on and off by a
+              transistor switch in the 555 IC ground lead.&nbsp; The black wires
+              in the photo are all connecting together on the circuit board and
+              are connected to the negative battery terminal and the locomotive
+              frame.&nbsp;&nbsp; The red leads connect the the positive terminal
+              on the battery and to the coil (+) terminal.&nbsp;&nbsp; The
+              yellow wire connects to the coil (-) terminal.&nbsp; The green
+              wire is the control wire and is connected to ground to turn the
+              circuit on.&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td width="350"><img border="0" src="Pulser.jpg" width="350" height="276"></td>
+          </tr>
+          <tr>
+            <td>This battery pack was purchased from Radio Shack.&nbsp; It
+              measures&nbsp; 5.5&quot; X 2.875&quot; X 1.4&quot;
+              high including the batteries that stick up from the pack.&nbsp;&nbsp;
+              Radio Shack has another version of pack that has two parallel rows
+              of two batteries on end.&nbsp; It is nearly the same size as this
+              one.&nbsp; This one was chosen&nbsp; because it's easy to connect a wire to
+              each of the cells.&nbsp;&nbsp;&nbsp; It's desirable to connect a wire
+              between the third and fourth cells to pick off 4.5 volts to run
+              the headlamps.&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td width="350"><img border="0" src="BatteryPack.jpg" width="350" height="224"></td>
+          </tr>
+            
+        </table>
+        </center>
+      </div>
+      <p align="left"><img border="0" src="TestSetup.jpg" width="709" height="345"></p>
+      <p align="left">This shows the circuit hooked up on the desk for
+      testing.&nbsp; The white wire is the high voltage lead from the
+      coil.&nbsp;&nbsp; The alligator clip on the end of the green wire is
+      touched to the clip on the black wire to turn on the coil.&nbsp;&nbsp; It
+      worked!&nbsp;</p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720">
+          <tr>
+            <td>This shows the spark on the plug tip.&nbsp; The gap is about
+              0.1&quot;.&nbsp;&nbsp; A larger gap was tried but the plug
+              arced closer to the porcelain where the gap was smaller.&nbsp; Another test was
+              to dip the electrodes and porcelain in fuel oil and then see if it
+              would spark.&nbsp; It sputtered a couple times and then started to
+              spark again.&nbsp;&nbsp;
+              <p>The current drain when sparking was measured to be a little
+              less than 1/2 amp.&nbsp; The unit&nbsp; was tested at 4.5 volts
+              supply and found to be erratic unless the gap was made smaller so
+              6 volt operation seems best.&nbsp;&nbsp;&nbsp;At this drain,&nbsp;
+              the
+              batteries should last all summer.</td>
+            <td width="350"><img border="0" src="Spark.jpg" width="350" height="198"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="left"><b>Wiring Everything Together:&nbsp;</b>  The most
+      important goal is to
+      get everything wired together and to have the result function properly.&nbsp; Another
+      goal is to be able to remove all the parts without cutting or unsoldering
+      any wires.&nbsp;&nbsp; A third goal is to have the wiring not look like a
+      rat's nest.&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720">
+          <tr>
+            <td><b>Coil Mounting: </b>The coil comes with the bracket
+              shown.&nbsp; A&nbsp; spacer cut from 3/16&quot; X 1/2&quot; bar
+              stock was silver soldered
+              to the middle of the bracket.&nbsp; The bracket was attached to an
+              inner frame channel with a couple 6-32 screws into the spacer. &nbsp; The bracket and spacer were powder coated
+              before mounting.&nbsp;&nbsp; The photo is of the under side of the
+              tender frame.&nbsp; The coil is located in the right front.</td>
+            <td width="350"><img border="0" src="CoilMtg.jpg" width="350" height="233"></td>
+          </tr>
+          <tr>
+            <td><b>Battery Compartment:&nbsp; </b>The battery compartment is
+              between the coil and the bolster. The rear part of the compartment
+              is merely a plate screwed into the frame. The front part is also a
+              plate with a 90 degree bent at the front to form the front side of
+              the compartment.&nbsp; The inside of the front plate slips under a
+              bar and there is also a retaining lip on the rear plate to hold up
+              the rear side of the front plate.&nbsp; Therefore, the front plate
+              can be secured with one screw.&nbsp; Once this screw is removed,
+              the front plate can be removed and the battery pack slid forward
+              and down to be removed..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td width="350"><img border="0" src="BatMtg.jpg" width="349" height="205"></td>
+          </tr>
+          <tr>
+            <td><b>Switch Panel: </b>A ~ 5&quot; length of 1.25&quot; X
+              1.25&quot; X 1/8&quot; angle was used as a panel for three toggle
+              switches.&nbsp; The angle also served to anchor&nbsp; the wiring
+              and hold the electronic circuit.&nbsp; The front (left) switch controls
+              power to the igniter circuit.&nbsp; The middle switch will control the
+              headlamp and any cab interior lights&nbsp; and the rear switch
+              will control the rear headlamp.&nbsp;&nbsp;&nbsp; The panel is
+              mounted with a couple 4-40 screws through the outside frame
+              channel.</td>
+            <td width="350"><img border="0" src="SwitchMtg.jpg" width="350" height="251"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="center"><img border="0" src="PowerCable.jpg" width="700" height="256"></p>
+      <p align="left">The above photo shows the top view of the circuitry.&nbsp;
+      The tender front is to the right.&nbsp; This is all covered by the tender
+      floor.&nbsp;&nbsp; The batter pack is connected to the switch panel via a
+      4 wire Molex type connector obtained from Radio Shack.&nbsp; Only three of
+      the wire positions are used.&nbsp; The black wire is battery negative, the red
+      wire is +6 volts and the blue wire is +4.5 volts (connected between the
+      3rd and 4th cell of the battery pack).&nbsp;&nbsp; On the switch panel
+      side, the black wire is connected to a ground lug, the red wire to the
+      front switch (igniter power) and the blue wire to the middle and rear
+      switches
+      (lamps).&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720">
+          <tr>
+            <td><b>Molex Connector Pins:&nbsp; </b>I thought I'd show one of the
+              pins from a Molex connector.&nbsp;&nbsp; The loops on each side
+              are trimmed off leaving a short stub slightly longer than the side
+              of the pin barrel (this is a female pin).&nbsp; The wire is
+              fastened
+              to the pin with a crimping tool.&nbsp; I also solder the wire to
+              make sure it holds.&nbsp; The pins then slip in the plastic
+              holder.&nbsp; the stubs keep the pin from going in too far and the
+              barbs keep the pin from being pushed back out.&nbsp; The male pins
+              look the same only have a slightly smaller OD and a pointed
+              end.&nbsp; (You guys should be able to figure out the male/female
+              part.)&nbsp;&nbsp;<b>&nbsp;</b></td>
+            <td width="350"><img border="0" src="Pin.jpg" width="350" height="324"></td>
+          </tr>
+          <tr>
+            <td>This is the crimping tool I bought somewhere a long time
+              ago.&nbsp; Radio Shack sells similar crimping tools.</td>
+            <td width="350"><img border="0" src="Crimper.jpg" width="350" height="142"></td>
+          </tr>
+          <tr>
+            <td><b>Pulser Wiring: </b>This photo shows how the pulser was
+              connected to the other pieces.&nbsp; The blue wire with the hooked
+              lug goes to the coil (-) terminal.&nbsp;&nbsp; The black wire with
+              the lug is the negative terminal that goes on the same screw as the ground from the
+              battery and a ground lead in the cable to the locomotive.&nbsp;
+              The two wire plug is half of a 12&quot; extension obtained from Auto Zone.&nbsp;
+              This extension has mating plugs on each end and is intend to use
+              to extend trailer wiring. The red wire is the +6 volt
+              lead.&nbsp; The red wire on the mating plug goes the front toggle
+              switch.&nbsp;&nbsp; The white wire is the control lead that is
+              grounded to turn on the pulser.&nbsp; The white lead on the mating
+              plug goes to the
+              cable to the locomotive
+              cab.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>&nbsp;&nbsp;</b></td>
+            <td><img border="0" src="Ckt.jpg" width="350" height="202"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="center"><img border="0" src="FinishedTop.jpg" width="700" height="217"></p>
+      <p align="left">The above photo shows the pulser circuit covered with
+      electrical tape and all wires connected.&nbsp;&nbsp; The red wire
+      near the left end of the coil is the coil + 6 volt lead that has a hooked lug
+      on the coil end with the other end connected to the front toggle&nbsp;
+      switch.&nbsp; The two screws securing the
+      switch panel are removed to drop the switch panel.&nbsp; The pulser
+      circuit will drop down with the switch panel.&nbsp;</p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720">
+          <tr>
+            <td>The wires between the tender and the locomotive are
+              via a standard 4 wire trailer wiring assembly from Auto
+              Zone.&nbsp; The cable had 12&quot; wires on the tender end and
+              48&quot; wires on the locomotive end.&nbsp;&nbsp; The white wire
+              at the tender end connects to the coil high voltage
+              terminal.&nbsp; The other three wires run through a rubber grommet
+              on the switch panel and are secured&nbsp; by a cable clamp on the top
+              side of the switch panel.&nbsp; The brown wire on the tender end&nbsp;
+              connects to a lug on the grounding screw.&nbsp; The yellow wire
+              connects to the middle switch for the locomotive lamps.&nbsp; The
+              green wire is spliced to the&nbsp; the white wire that goes to the
+              two prong plug to the pulser circuit&nbsp; --- this is the wire
+              that turns on the pulser circuit.&nbsp;&nbsp;&nbsp;</td>
+            <td width="350"><img border="0" src="Plug.jpg" width="350" height="320"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="center"><img border="0" src="Cable.jpg" width="699" height="339"></p>
+      <p align="left">Photo above shows the locomotive end of the cable with the
+      cab floor removed.&nbsp;&nbsp; The white wire was cut off at the plug end
+      and the stub spliced to the blue plug wire obtained from Jerry Howell with
+      the pulser kit.&nbsp;&nbsp; That splice was covered with shrink tubing and
+      a few layers of vinyl electrical tape.&nbsp; The four wires were then
+      wrapped with the electrical tape to form a cable.&nbsp;&nbsp;&nbsp; The
+      cable was taped to the right side water hose in several places.&nbsp; The
+      cable was also taped to the copper tube from that right side hose under the cab
+      floor.&nbsp; Note the the yellow wire was folded and&nbsp; taped to the water tube on the
+      left side of the cab.&nbsp; This wire will be later connected to
+      the headlamp and any cab lights.&nbsp;&nbsp; The brown wire is soldered to a ground lug that is
+      screwed to the top of the truck bolster.&nbsp;&nbsp;&nbsp; The blue plug
+      wire goes down to the spark plug.&nbsp;&nbsp; The green wire goes to the
+      igniter switch beside the atomizer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720">
+          <tr>
+            <td><b>Spark Plug Connector:&nbsp;</b> The connector on the end of
+              blue high voltage wire was taken from an old auto plug
+              wire.&nbsp;&nbsp; The crimping part&nbsp; was shortened and then
+              crimped over the wire insulation.&nbsp; A hole was drilled in the
+              top to feed the wire through.&nbsp;&nbsp; I had intended to solder
+              the wire connection but forgot.&nbsp;&nbsp; This is not&nbsp;
+              critical as the high voltage will jump the short distance if there
+              is a poor connection.&nbsp;&nbsp;&nbsp;</td>
+            <td width="350"><img border="0" src="PlugConnector.JPG" width="350" height="269"></td>
+          </tr>
+          <tr>
+            <td><b>Igniter Switch:&nbsp; </b>This photo shows the igniter
+              pushbutton switch (Radio Shack) with the cover over the reversing
+              linkage removed.&nbsp;&nbsp; One side of the switch is connected
+              to ground via the black wire.&nbsp; The other end of the black
+              wire has a lug that is grounded by one of the screws that secures the pilot block on the
+              outside end of the reverse lever
+              axel.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td width="350"><img border="0" src="Switch.jpg" width="350" height="271"></td>
+          </tr>
+          <tr>
+            <td>There is a one wire connector made of Molex&nbsp; connector pins
+              on the green lead.&nbsp;&nbsp; The male pin was soldered to the
+              switch terminal and the female crimped and soldered to the end of
+              the green wire.&nbsp; The female pin was then covered with shrink
+              tubing as shown in the photo.&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td width="350"><img border="0" src="PinConnector.jpg" width="350" height="358"></td>
+          </tr>
+          <tr>
+            <td>This photo shows the cab interior with the reversing gear linkage
+              cover in place.&nbsp;&nbsp; The switch and regulator control are
+              easy to access but sort of hidden since the prototype had neither
+              control.&nbsp;</td>
+            <td width="350"><img border="0" src="IgniterSwitch.JPG" width="350" height="327"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="center">&nbsp;</p>
+      <p align="center"><img border="0" src="Ckt1.jpg" width="720" height="400"></p>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720">
+          <tr>
+            <td><b>Cabling Sketches: </b>The sketches above and on the right
+              show the cabling used to connect everything
+              together.&nbsp;&nbsp; Note that on the tender cabling the white
+              wires are drawn as purple since the white wouldn't show on the
+              white background.&nbsp;</td>
+            <td width="450"><img border="0" src="Ckt2.jpg" width="447" height="293"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="left"><b>Igniter Test:&nbsp;</b> This part of the project has
+      been done for a few weeks but I didn't want to put it on the website until the igniter
+      was tested on a real live fire to make sure
+      it actually worked.&nbsp;&nbsp; Today (4/15/04) was warm, sunny and beautiful in spite of
+      the IRS so I sneaked off from lawn chores and fired up the Shay on the test stand.&nbsp; I couldn't get the burner to light
+      initially with the igniter.&nbsp; That may have been because the fuel setting was
+      incorrect.&nbsp; Once lit and adjusted properly I temporarily
+      shut the atomizer valve --- flame went out --- then turned it back on ---
+      then&nbsp; pressed the igniter switch ----- wow! ----it&nbsp; worked!&nbsp;&nbsp;
+      After testing it a half dozen times I then played with burner
+      adjustment.&nbsp; I found a bigger air hole is required at the rear
+      of the pan --- the flame went out under full load unless the door was
+      opened slightly.&nbsp;&nbsp; While fooling with this and other problems,
+      the burner went out at least 25 times --- igniter relit&nbsp; it every
+      time.&nbsp;&nbsp;</p>
+      <p align="left">On a sadder note, the pretty blue high voltage wire near
+      the spark plug is toast ---------- RIP.&nbsp; At times flames came out
+      around the spark plug and went after that plug wire.&nbsp; The burner
+      nozzle is horizontal and&nbsp; pointed right at the plug base.&nbsp;&nbsp;&nbsp;
+      Maybe if I tilt it up a bit away from the plug hole, flames won't come out
+      the plug hole (DAH).&nbsp;&nbsp;&nbsp;</p>
+      <table border="0" cellpadding="0" cellspacing="1" width="100%">
+        <tr>
+          <td width="50%">
+            <p align="center"><font face="Arial Black" size="5"><a href="../../shay.htm">Shay Project</a><br>
+            <a href="../../../index.htm">NLW
+            Home</a></font></td>
+          <td width="50%">
+            <p align="left"><a href="../../../Climax1.jpg"><img border="0" src="../../../Climax1.jpg" width="200" height="79" lowsrc="../../../Climax1.jpg"></a></td>
+        </tr>
+      </table>
+      <p align="left">&nbsp;</p>
+      <p align="left">&nbsp;</p>
+    </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+
+</html>

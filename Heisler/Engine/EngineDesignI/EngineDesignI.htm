@@ -1,0 +1,364 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Heisler Engine Design I</title>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="1" width="720">
+    <tr>
+      <td>
+        <p align="center"><font face="Arial"><b><font size="6">Heisler Engine&nbsp;Design 
+        Part I<br>
+        Crankshaft, Eccentrics and Main Bearings </font><font face="Arial" size="5"><br>
+        </font>
+        </b><font face="Arial" size="2">Nelson Riedel, <a href="mailto:Nelson@NelsonsLocomotive.com">Nelson@NelsonsLocomotive.com</a><br>
+        10/6/2004, last updated </font></font><font size="2" face="Arial">
+        <!--webbot
+        bot="Timestamp" S-Type="EDITED" S-Format="%m/%d/%Y" startspan -->09/12/2009<!--webbot
+        bot="Timestamp" endspan i-checksum="12552" -->
+        </font></p>
+  </center>
+
+
+      <p align="left"><font face="Arial">&nbsp;It was a tossup whether to start on the trucks or the 
+      engine.&nbsp; However, as with the Shay, I want to get something moving
+      as soon as possible so decided to start with the engine&nbsp;&nbsp;&nbsp; 
+      This page describes the start of the design of the&nbsp; model engine 
+      and covers the design of the lower engine components. </font> </p>
+        <div align="center">
+          <center>
+          <table border="2" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber4">
+            <tr>
+              <td width="100%"><font face="Arial"><b>Update: </b> This page was updated after the 
+              engine was successfully fabricated in the fall of 2009.&nbsp; The 
+              updates include showing that most the parts are machined from bar 
+              stock rather than cast as planned earlier.&nbsp; The changes were so massive that all 
+              the parts were renumbered. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </font> </td>
+            </tr>
+          </table>
+          </center>
+        </div>
+      <p align="left"><font face="Arial">The first decision was to use 1.6&quot; scale.&nbsp; The
+      local folks all use 7.5&quot; gauge and the 1.6&quot; scale is a little
+      closer match than 1.5&quot; scale.&nbsp;&nbsp;&nbsp; (Bigger is better as long as I can get it
+      in my small SUV.)&nbsp;&nbsp; The scale factor is 1.6&quot;/12&quot; or&nbsp;
+      0.13333..........&nbsp; which I rounded to
+      0.134.&nbsp;&nbsp; It's possible to scale all the full size drawings directly
+      in&nbsp; TurboCAD.&nbsp; That is what I plan to do and then adjust most
+      dimensions to match available stock or common inch dimensions such as
+      multiples of 1/16 inch.&nbsp;&nbsp;&nbsp;</font></p>
+      <p align="left"><font face="Arial">The next step was to take a look at the engine parameters 
+      and compare to the Schroeder Shay with which I'm experienced.&nbsp;&nbsp;</font></p>
+      <div align="center">
+        <center>
+        <table border="2" cellpadding="0" cellspacing="1" width="720" height="239">
+          <tr>
+            <td align="center" width="153" height="38"><font face="Arial"><b>Parameter</b></font></td>
+            <td align="center" width="86" height="38"><font face="Arial"><b>MRSR 91</b></font></td>
+            <td align="center" width="123" height="38"><font face="Arial"><b>MRSR 91 Scale</b></font></td>
+            <td align="center" width="125" height="38"><font face="Arial"><b>Schroeder Shay</b></font></td>
+            <td align="center" width="110" height="38"><font face="Arial"><b>Heisler Model</b></font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b># Cylinders</b></font></td>
+            <td align="center" width="86" height="19"><font face="Arial">2</font></td>
+            <td align="center" width="123" height="19"><font face="Arial">2</font></td>
+            <td align="center" width="125" height="19"><font face="Arial">3</font></td>
+            <td align="center" width="110" height="19"><font face="Arial">2</font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b>Cylinder Diameter</b></font></td>
+            <td align="center" width="86" height="19"><font face="Arial">18.25&quot;</font></td>
+            <td align="center" width="123" height="19"><font face="Arial">2.45&quot;</font></td>
+            <td align="center" width="125" height="19"><font face="Arial">1.375&quot;</font></td>
+            <td align="center" width="110" height="19"><font face="Arial">&nbsp;2.125</font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b>Stroke</b></font></td>
+            <td align="center" width="86" height="19"><font face="Arial">16&quot;</font></td>
+            <td align="center" width="123" height="19"><font face="Arial">2.14&quot;</font></td>
+            <td align="center" width="125" height="19"><font face="Arial">1.5&quot;</font></td>
+            <td align="center" width="110" height="19"><font face="Arial">&nbsp;2</font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b>Gear Ratio</b></font></td>
+            <td align="center" width="86" height="19"><font face="Arial">2:1</font></td>
+            <td align="center" width="123" height="19"><font face="Arial">2:1</font></td>
+            <td align="center" width="125" height="19"><font face="Arial">2:1</font></td>
+            <td align="center" width="110" height="19"><font face="Arial">2:1</font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b>Wheel Diameter</b></font></td>
+            <td align="center" width="86" height="19"><font face="Arial">40&quot;</font></td>
+            <td align="center" width="123" height="19"><font face="Arial">5.36&quot;</font></td>
+            <td align="center" width="125" height="19"><font face="Arial">4&quot;</font></td>
+            <td align="center" width="110" height="19"><font face="Arial">5.25&nbsp;</font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b>Working Pressure</b></font></td>
+            <td width="86" height="19" align="center"><font face="Arial">200</font></td>
+            <td width="123" height="19" align="center"><font face="Arial">26.6</font></td>
+            <td width="125" height="19" align="center">
+              <font face="Arial">100</font></td>
+            <td width="110" height="19" align="center"><font face="Arial">100</font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b> Tractive Force&nbsp; lbs @ Working Pressure</b></font></td>
+            <td width="86" height="19" align="center"><font face="Arial">45,296</font></td>
+            <td width="123" height="19" align="center"><font face="Arial">108</font></td>
+            <td width="125" height="19" align="center">
+            <font face="Arial">197 </font>
+            </td>
+            <td width="110" height="19" align="center"><font face="Arial">292</font></td>
+          </tr>
+          <tr>
+            <td width="153" height="19"><font face="Arial"><b>Minimum Starting Tractive Force (lbs)</b></font></td>
+            <td width="86" height="19" align="center">&nbsp;</td>
+            <td width="123" height="19" align="center">&nbsp;</td>
+            <td width="125" height="19" align="center">
+            <font face="Arial">133</font></td>
+            <td width="110" height="19" align="center"><font face="Arial">190</font></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+      <p align="left"><font face="Arial">The tractive forces shown in the table were computed using
+      a web page that is no longer available. </font> </p>
+      <p align="left"><font face="Arial">The Heisler minimum starting tractive force was computed using 
+      the same technique as done for the Shay at
+      <a href="../../../Shay/Operation/PowerTraction/PowerTraction.htm">Shay 
+      Tractive Force &amp; Power</a> .&nbsp; &nbsp;</font></p>
+      <p align="center">
+      <font face="Arial">
+      <img border="0" src="Torque.jpg" width="600" height="413"></font></p>
+      <p align="left"><font face="Arial">The graph above shows the normalized starting tractive 
+      force as the crank rotates for the Heisler. Note the expected two peaks, one from each 
+      piston.&nbsp; The force ranges from a normalized level of&nbsp; 0.7 to 
+      1.4 as the crank angle changes. The minimum starting tractive force can 
+      be calculated using the equation below.</font></p>
+      <p align="left"><font face="Arial">Tractive Force (min) =&nbsp; 0.7 X (Boiler Pressure) X ( 
+      Piston Area) X (Stroke) x (Gear Ratio) / (Wheel Diameter)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></p>
+      <p align="left"><font face="Arial">This calculates to 190 lbs.</font></p>
+      <p align="left"><font face="Arial">The&nbsp; Schroeder Shay has plenty of tractive force ----- it
+      can pull an amazing load.&nbsp; The major limitation is the ability to
+      generate steam&nbsp;&nbsp;&nbsp;&nbsp; The Heisler at 90 tons is about 50% bigger than the Shay
+      so I want about 50% more tractive force.&nbsp; Any additional tractive
+      force beyond a 50% increase would likely be of little value since I'll
+      probably not be able to generate enough steam to make use of
+      it.&nbsp;&nbsp;</font></p>
+      <p align="left"><font face="Arial">Note the that 190 lbs min starting tractive force for the 
+      Heisler is only 43% greater than the 133 lbs starting tractive force for 
+      the Shay. However, the Heisler marketing information says the Heisler is 
+      more efficient since the drive train has half as many gears and bearings.&nbsp; 
+      If that is true, the friction should be less and maybe I'll get a net 
+      increase of 50%.&nbsp;&nbsp; </font> </p>
+      <p align="left"><font face="Arial">It's impossible to scale the full sized locomotive exactly 
+      because of minimum thickness of walls, etc.&nbsp;&nbsp; The engine bore 
+      and stroke shown on the Heisler Model column seem to be a good compromise 
+      giving sufficient wall thickness and a the 40%+ increase in tractive force over 
+      the Shay. </font></p>
+        <div align="center">
+          <center>
+          <table border="2" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber5">
+            <tr>
+              <td width="100%"><font face="Arial"><b>Part Numbering:&nbsp; </b>After completing the 
+              engine design I decided that an organized part 
+              numbering scheme would be useful.&nbsp;&nbsp;&nbsp; The Heisler factory 
+              must have used a numbering scheme as evidenced by the numbers that 
+              were cast into many parts .&nbsp; The numbers were of the form HLXXXX, where the Xs were numbers.&nbsp;&nbsp; I assume the HL 
+              signified that the parts were for a Heisler locomotive.</font><p>
+              <font face="Arial">The 
+              scheme I selected is of the form: H (Type letter) (Number) 
+              (Revision letter)&nbsp; Where:</font></p>
+              <p><font face="Arial">Type letter =&nbsp; C for castings, M for machined parts, S for 
+              stock parts such bearings.</font></p>
+              <p><font face="Arial">Number =&nbsp; Three digit number where the first number 
+              represents the  locomotive subsystem.&nbsp; The 1xx numbers 
+              will be for the engine subsystem, 2xx for trucks, etc.&nbsp; The 
+              xx digits are arbitrary.</font></p>
+              <p><font face="Arial">Revision letter = The initial version of the parts will have no 
+              revision letters.&nbsp;&nbsp; If a part is later revised, the 
+              letter A will be added for the first revision, B for the second 
+              revision, etc.&nbsp;&nbsp;&nbsp; </font> </p>
+              <p><font face="Arial">Examples of part numbers:</font></p>
+              <p><font face="Arial">HC100 Crankcase casting</font></p>
+              <p><font face="Arial">HM100 Crankshaft</font></p>
+              <p><font face="Arial">HS100A&nbsp;&nbsp; Engine main bearing, first revision&nbsp;&nbsp;&nbsp;&nbsp;
+              </font>
+              <p><font face="Arial">Note that part numbers are not assigned to standard hardware 
+              items such as nuts, bolts and screws and these items are not 
+              included in the parts list.&nbsp; In most cases the specific type 
+              of fastener will be listed in the fabrication pages.</font><p>
+              <font face="Arial">The parts 
+              are listed on spreadsheets in the
+              <a href="../../PartsList/PartsList.htm">Parts List</a> page&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </font>
+              </td>
+            </tr>
+          </table>
+          </center>
+        </div>
+      <div align="center">
+        <center>
+        <table border="0" cellpadding="0" cellspacing="1" width="720" height="1841">
+          <tr>
+            <td height="400"><font face="Arial"><b>Crankshaft:&nbsp; </b>The crankshaft&nbsp; was the first part
+              scaled.&nbsp;&nbsp; The drawing on the right shows the Cass 6
+              crankshaft crank scaled by 0.134.&nbsp; I decided to use drill rod
+              and bar stock to make the crank.&nbsp; The shay used 0.5&quot;
+              diameter rod so 0.75&quot; diameter is more than adequate for the
+              Heisler.&nbsp; The
+              shay used 7/16&quot; thick crank
+              webs.&nbsp; A 5/8&quot; thickness is a bit oversize for the scale
+              dimension of 0.536&quot; but seems reasonable.&nbsp; The rod
+              thickness also scaled to 0.536&quot; so 9/16&quot; was selected
+              for the rod thickness.&nbsp; This compares to 3/8&quot; for the Shay
+              rod thickness.&nbsp;&nbsp;&nbsp;</font></td>
+            <td width="500" height="400">
+            <font face="Arial">
+            <a href="../../DesPartsList/DesignPartsList.htm">
+            <img border="0" src="CASS6ScaleCrank.jpg" width="500" height="400"></a></font></td>
+          </tr>
+          <tr>
+            <td height="350"><font face="Arial">This drawing shows the resulting crank dimensions.&nbsp;&nbsp; Note that
+              the offset is 1&quot; giving a stroke of 2&quot;.&nbsp; The rod
+              bearing flanges work out to be 3/16&quot;.&nbsp; The offset
+              between the two cylinders is 15/16&quot;&nbsp; &nbsp; </font>
+              <p><font face="Arial">The main bearing length is 1-9/16&quot; including thrust surfaces 
+              on the ends.&nbsp; The additional
+              1&quot; length on the front side&nbsp;of the crank is for the
+              valve eccentrics.</font></p>
+              <p><font face="Arial">The crankshaft will be fabricated from 3/4&quot;&quot; diameter drill rod and 
+              5/8&quot; X 1-1/4&quot; mild steel rectangular bar stock. <b>&nbsp;</b></font></p>
+            </td>
+            <td width="450" height="350">
+            <font face="Arial">
+            <img border="0" src="Crankshaft.jpg" width="500" height="324"></font></td>
+          </tr>
+          <tr>
+            <td height="300"><font face="Arial"><b>Crankshaft Counterweight: </b>This shows a counterweight
+              which matches with the crankshaft above. The 0.75&quot;
+              overall thickness is slightly less than the direct scale of Cass 6
+              to compensate for the slightly wider rod
+              thickness.&nbsp;&nbsp;&nbsp;&nbsp; A pair of counterweights can be 
+            turned from a mild steel or cast iron disk.&nbsp; </font> </td>
+            <td width="450" align="center" height="300">
+            
+          
+            
+            <p align="center">
+            
+          
+            
+            <font face="Arial">
+            <img border="0" src="Counterweight.jpg" width="500" height="270"></font></td>
+          </tr>
+          <tr>
+            <td height="350"><font face="Arial"><b>Counterweight Attachment: </b>
+            This sketch shows how the counterweight is attached to the crank.&nbsp; 
+            The attachment strap (HM102) is a bent piece of 3/16&quot; diameter HRS 
+            rod threaded 10-32 on each end.&nbsp; The sketch shows&nbsp; the 
+            approximate location of the holes in the counterweight for the 
+            strap.&nbsp;&nbsp; The attachment pin is an off-the-shelf  10-32 
+            alloy steel SHCS.</font></td>
+            <td width="450" height="350">
+              <font face="Arial">
+              <img border="0" src="CounterweightAttachment.jpg" width="500" height="434"></font></td>
+          </tr>
+          <tr>
+            <td height="436"><font face="Arial"><b>Valve Eccentric:</b> This shows the dimensions of the valve 
+            eccentrics that fit on the forward end of the crankshaft.&nbsp;&nbsp; 
+            The two identical eccentrics are positioned so that the smaller 
+            diameter is next to the seam between the two eccentrics.&nbsp;&nbsp; 
+            The eccentric angular position is fixed by the key.  &nbsp; The computation of the 25 
+            degree angle is described in Engine Design Part Part IV.&nbsp;&nbsp;&nbsp; The eccentrics 
+            can be&nbsp; turned 
+            from mild steel, cast iron or stainless steel. &nbsp;&nbsp;&nbsp;</font></td>
+            <td width="450" height="436">
+              <p align="center">
+              <font face="Arial">
+              <img border="0" src="Eccentric.jpg" width="500" height="392"></font></p>
+              <p align="center">
+              &nbsp;</p>
+            </td>
+          </tr>
+          <tr>
+            <td height="436"><font face="Arial"><b>Eccentric Timing: </b>This 
+            sketch&nbsp; shows the position of the two eccentrics as viewed from 
+            the front of the engine.&nbsp; When viewed from this perspective, 
+            the shaft turns counterclockwise for forward locomotive motion.&nbsp;&nbsp;&nbsp; </font></td>
+            <td width="450" height="436">
+              <img border="0" src="EccentricTiming.jpg" width="492" height="481"></td>
+          </tr>
+        </table>
+        </center>
+      </div>
+        <div align="center">
+          <center>
+          <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="720" id="AutoNumber3">
+            <tr>
+              <td><font face="Arial"><b>Main Bearing: </b>The main bearings are off-the-shelf 
+              oil impregnated (SAE 841) bronze bearings. The&nbsp; flanged sleeve bearing (HS100) has a 
+              flange width of&nbsp; 0.187&quot;.&nbsp;&nbsp; The flange is positioned on the 
+              inner side of the crankcase and, if everything aligns perfectly, will have to be thinned ~0.015&quot; to 
+              match the crank and crankcase. &nbsp;&nbsp; 
+              A grease hole will be drilled up through the bearing cap and 
+              through the bearing. &nbsp;The 1/16&quot; wide thrust bearing 
+              (HS101) will be used a necessary to position the crankshaft.</font></td>
+              <td width="400">
+              <font face="Arial">
+              <img border="0" src="MainBearing.jpg" width="400" height="241"></font></td>
+            </tr>
+            <tr>
+              <td><font face="Arial"><b>Main Bearing Cap:</b> The bearing cap is not symmetrical 
+              front-to-back as is the cap on Cass 6.&nbsp;&nbsp; The smooth side 
+              faces the inside of the crankcase.</font><p><font face="Arial">The 
+              hole for the bearing should be drilled/bored after the cap has 
+              been attached to the crankcase with the two 10-32 screws &amp; nuts </font></p>
+              <p>
+              <font face="Arial">There will be a 
+              pin (6-32 SHCS) through the cap and the bearing 
+              to prevent the bearing from rotating.&nbsp; A hole will also be 
+              drilled through the cap and bearing for a grease filling. &nbsp;&nbsp;&nbsp;
+              </font> <p><font face="Arial">The caps can be fabricated from mild 
+              steel.</font></td>
+              <td width="400">
+              <font face="Arial">
+              <img border="0" src="MainBearingCap.jpg" width="400" height="236"></font></td>
+            </tr>
+          </table>
+          </center>
+        </div>
+        <p><font face="Arial">The crankcase and associated crosshead guides are next and the 
+        subject of the <a href="../EngineDesignII/EngineDesignII.htm">Engine 
+        Design II</a> page</font></p>
+      <p align="left">&nbsp;</p>
+      <table border="0" cellpadding="0" cellspacing="1" width="100%">
+        <tr>
+          <td width="50%">
+            <p align="center"><font face="Arial" size="5"><a href="../../heisler.htm">
+            Heisler Project</a><br>
+            <a href="../../../index.htm">NLW
+            Home</a></font></td>
+          <td width="50%">
+            <p align="left"><font face="Arial"><img border="0" src="../../../Climax1.jpg" width="200" height="79"></font></td>
+        </tr>
+      </table>
+  <center>
+  <p></p>
+  </center>
+
+
+  </table>
+
+
+</body>

@@ -1,0 +1,703 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 12.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Railbus Accessories</title>
+<style type="text/css">
+.style5 {
+	font-family: Arial;
+	font-size: x-small;
+}
+.style10 {
+	font-family: Arial;
+	font-size: medium;
+}
+.style11 {
+	text-align: center;
+}
+.style16 {
+	text-align: left;
+}
+.style18 {
+	font-size: medium;
+}
+.style13 {
+	text-align: center;
+	font-family: Arial;
+	font-size: medium;
+}
+.style19 {
+	text-align: center;
+	font-family: Arial;
+	font-size: x-small;
+}
+.style20 {
+	text-align: left;
+	font-family: Arial;
+	font-size: medium;
+}
+.auto-style1 {
+	font-size: large;
+}
+.auto-style2 {
+	font-family: Arial;
+}
+</style>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="1" style="width: 1000">
+    <tr>
+      <td class="style11">
+        <p align="center">
+		<div class="style16">
+			<span class="style5"><font face="Arial" size="2">
+			<table style="width: 100%">
+				<tr>
+					<td class="style16">
+					<div class="style11">
+		<span class="style5"><font face="Arial"><b><font size="6">Railbus 
+						Accessories&nbsp;
+					<br></font></b><font face="Arial" size="2">Nelson Riedel,
+		<a href="mailto:Nelson@NelsonsLocomotive.com">
+		Nelson@NelsonsLocomotive.com</a><br>4/8/2017, last updated </font>
+		</font><font face="Arial" size="2">
+		<!--webbot bot="Timestamp" s-format="%m/%d/%Y" s-type="EDITED" startspan -->05/27/2017<!--webbot bot="Timestamp" endspan i-checksum="12629" --><br>&nbsp;<div class="style16">
+							<span class="style18">
+							<table style="width: 100%">
+								<tr>
+									<td class="style5">
+									<font face="Arial" size="2">
+						
+								
+							
+									<span class="style18">
+									<table style="width: 100%">
+										<tr>
+											<td class="style5">
+											<font face="Arial" size="2">
+						
+								
+							
+											<span class="style18"><strong>
+											Ammeter:</strong> I wanted an 
+											ammeter to both show the current to 
+											the motors and 
+											also show current going back into 
+											the battery during the regenerative 
+											braking.&nbsp; The typical Chinese 
+											digital ammeters measure current 
+											in only one direction.&nbsp; I found 
+											this ammeter on E-Bay for less than 
+											$15 including shunt and shipping.&nbsp; 
+											Arrived a few days later from 
+											Kentucky.&nbsp;&nbsp; The seller is 
+											girogio11185. <br><br>The motors 
+											runs at less than 20 amps most the 
+											time but can go as high as 70 amps 
+											where the controller limits the 
+											current.<br><br>I measured the meter 
+											resistance (don't use lowest scale 
+											on the ohmmeter as it might peg the 
+											ammeter) to be 160 ohms.&nbsp; A 
+											resistor in series with the meter 
+											leads will increase the scale.&nbsp; 
+											I chose to use a 640 ohm resistor 
+											(actually used a standard value 620 
+											ohm)&nbsp; to increase the scale to 
+											~100 amps.&nbsp;&nbsp; 
+											I put a momentary contact switch 
+											around the resistor to revert the 
+											scale back to 20 amps&nbsp; for 
+											close scrutiny of low currents.&nbsp;&nbsp;&nbsp;
+									</span>
+											<td>
+											<img height="414" src="giorgio11185.jpg" width="497"></td>
+										
+										<tr>
+											<td class="style10">This is the 
+											actual circuit; pretty simple.&nbsp;
+											</td>
+											<td>&nbsp;<img height="252" src="MeterCircuit.jpg" width="499"></td>
+										</tr>
+										<tr>
+											<td class="style10">Previously the 
+											motor circuit breaker had been 
+											mounted under a piece of aluminum 
+											angle.&nbsp; The new larger drive 
+											cover has space for the motor 
+											circuit breaker and ammeter shunt on 
+											the back underside.&nbsp;&nbsp;&nbsp;&nbsp; 
+											These high current components are 
+											nicely shielded here</td>
+											<td>
+											<img height="258" src="MeterShunt.JPG" width="599"></td>
+										</tr>
+																			
+									<table style="width: 100%">
+										<tr>
+											<td class="style16">
+											<div class="style16">
+												<br class="style18">
+												<hr>
+												<img height="1294" src="CC_wiring.jpg" width="1000"><span class="style18"><br>
+												<br>This is the 
+											full wiring diagram&nbsp; for the 
+											controller.&nbsp; I don't have a 
+											bell so we can ignore that wiring. I 
+											do have front and rear head lamps, a 
+											horn and brakes so we need to 
+											discuss each of those.<br><br>Note 
+											that the diagram shows the 
+											accessories powered from 24 volts.&nbsp; 
+											In some cases the controller 
+											coverts the 24 volts to 12 volts to 
+											power the accessories as described 
+											below.<br><hr><br>
+			<span class="style5">
+									<font face="Arial" size="4">
+						
+								
+							
+												<strong>Headlamps: </strong>The 
+												Critter Controller uses Pulse 
+												Width Modulation (PWM) to 
+												operate 12 volt incandescent 
+												lamps from 24 volts.&nbsp; The 
+												PWM switches the negative lead 
+												from the lamps on and off about 
+												2000 times a second.&nbsp;&nbsp;&nbsp; 
+												For full brightness it is on and 
+												off exactly the same amount of 
+												time or 50% duty cycle.&nbsp; 
+												The average voltage across the 
+												lamp is thus half of 24 volts or 12 
+												volts.&nbsp; To dim the lights&nbsp; 
+												the duty cycle is decreased 
+												further to make the average 
+												voltage less than 12 volts.&nbsp; 
+												The headlamp switch on the 
+												handset is held on for several 
+												second to turn the head lamps on 
+												and off.&nbsp;&nbsp; A 
+												momentary push of the head light 
+												switch dims the headlamps and a 
+												second push returns them to full 
+												brightness.<br><br>In normal 
+												forward operation the headlamp 
+												switch turns on the front 
+												headlamp to full brightness and 
+												the rear lamp on but much 
+												dimmer.&nbsp; The brightness of 
+												the rear lamp is set by an 
+												option in the setup menu.&nbsp;&nbsp;&nbsp; 
+												When the drive is set to 
+												reverse, the rear lamp becomes 
+												the headlamp and the front lamp 
+												becomes the tail lamp.&nbsp;&nbsp; </font></span><br>
+												<br>I originally used the front 
+												part of small LED flashlights 
+												mounted in the headlamp castings 
+												from the Goose.&nbsp;&nbsp;&nbsp; 
+												I put a resistor in series with 
+												the units to operate them from 
+												12 volts.&nbsp; They weren't 
+												very bright when operated 
+												directly from 12 volts.&nbsp; They worked 
+												with the Critter Controller but 
+												still weren't very bright and the 
+												dimming settings had essentially 
+												no effect.&nbsp; <br><br>
+												<table style="width: 100%">
+													<tr>
+														<td>
+														<span class="style18">
+														Next step was to&nbsp; 
+														find&nbsp; suitable 
+														incandescent lamps.&nbsp; 
+														Lowe's stocks 12 volt&nbsp; 
+														landscape spotlights in 
+														multiple power ratings.&nbsp;&nbsp;&nbsp; 
+														I selected the 20 watt 
+														version in a MR-11 
+														profile that fit within 
+														the Goose headlamp 
+														castings. </span>
+														<br class="style18">
+														<br class="style18">
+														<span class="style18">
+														These lamps worked 
+														great, were much 
+														brighter than the old 
+														LED flashlight units and 
+														the Critter Controller 
+														dimming function worked 
+														perfectly.&nbsp; </span>
+														<br class="style18">
+														<br class="style18">
+														<span class="style18">On 
+														the down side, the lamps 
+														got really hot, after&nbsp;15 minutes or so the 
+														headlamp castings were 
+														too hot to hold.&nbsp;&nbsp; 
+														The &quot;Cooler&quot; on the 
+														package refers to the 
+														light spectrum (warm 
+														yellow 
+														vs. cool white).&nbsp; 
+														The back of the package 
+														has a warning that the 
+														lamps get very hot. </span>
+														<br class="style18">
+														<br class="style18">
+														<span class="style18">
+														After the first run with 
+														the lamps installed --- 
+														don't know whether they 
+														were on all the time or 
+														not but at the end of 
+														the day both lamps had 
+														failed.&nbsp;&nbsp; 
+														Don't know whether the 
+														failure was due to 
+														overheating or vibration 
+														from running on the 
+														track.&nbsp; 
+														In any case, since both 
+														lamps failed they are 
+														not a viable option.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+														</span></td>
+														<td>
+			<span class="style5"><font face="Arial" size="2">
+							<span class="style18">
+													<img height="319" src="Lamp.jpg" width="399">											
+													<tr>
+														<td class="style18">What 
+														I wanted was a very 
+														bright 12 volt LED 
+														spotlight that was 
+														dimmable.&nbsp;&nbsp; 
+														LEDs have very long life 
+														and consume very little 
+														power so they stay cool.&nbsp;&nbsp; 
+														Most are not dimmable.&nbsp; 
+														In fact, many&nbsp;are 
+														packaged with 
+														electronics that keep 
+														the light intensity 
+														constant over a wide 
+														range of voltages.&nbsp; 
+														After considerable 
+														research I found the the 
+														lamps&nbsp; pictured on 
+														the right from:
+														<a href="https://www.superbrightleds.com/moreinfo/led-spot-flood/mr16-led-bulb-70-watt-equivalent-bi-pin-led-spotlight-bulb-hh/3186/6750/">
+														https://www.superbrightleds.com/moreinfo/led-spot-flood/mr16-led-bulb-70-watt-equivalent-bi-pin-led-spotlight-bulb-hh/3186/6750/</a>.&nbsp; 
+														They are ~$10 each.&nbsp; 
+														I tested them on 12 
+														volts DC and they are 
+														indeed very bright!&nbsp; 
+														Complete specs are on the 
+														website.&nbsp; The 
+														illumination is about 
+														600 lumens, nearly 
+														triple those 20 watt 
+														lamps described above.
+														<br><br>I was really 
+														surprised when the 
+														Critter Controller 
+														dimming features worked 
+														perfectly. <strong>Note: 
+														I was operating the lamp 
+														from the 12 volt supply, 
+														not 24 volts.</strong>&nbsp;&nbsp;
+														Current drain 
+														was less than 1/2 amp at 
+														full brightness and less 
+														than 1/10 amp in the 
+														dimmed states and, the lamp don't 
+														even get warm. 
+														Unfortunately, the 
+														second lamp went out on 
+														the minimum brightness 
+														settings and the full 
+														brightness setting 
+														wasn't as bright as the 
+														first lamp tested.&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+														</td>
+														<td>
+														<img height="389" src="7-watt-mr16-dimmable-led-bulb-cob.jpg" width="400"></td>
+													</tr>
+													<tr>
+														<td>
+														<span class="style18">
+			<span class="auto-style2">
+									<font face="Arial">
+						
+								
+							
+														That second lamp worked 
+														fine when powered from 
+														24 volts but got a bit 
+														warm.&nbsp; That is 
+														probably OK but the 24 
+														volts might be pushing 
+														the lamp's margins so I 
+														tried some series 
+														resistors (15, 10, 7.5 
+														and 4.7 ohms) to find a 
+														value where both lamps 
+														worked from 24 volts and 
+														still stayed cool.&nbsp;&nbsp; 
+														The&nbsp; 7.5 ohm (10 
+														watt) resistors worked.&nbsp;&nbsp;&nbsp; 
+														The challenge is to find 
+														the largest value that 
+														works.&nbsp; The 
+														resistors get warm; that 
+														is heat I don't want in 
+														the lamp units.&nbsp; 
+														Note that other lamps 
+														may require different 
+														value resistors. <br>
+														<br>This shows the 
+														installed front 
+														headlamp.&nbsp;&nbsp; The lamp
+														</font></span>is in the MR-16 
+														profile.&nbsp; I got the 
+														mounting ring from Mike 
+														Price; he uses the rings 
+														on the Critter 
+														Locomotives he 
+														manufactures.&nbsp;
+														The lamp sockets are the 
+														G4 configuration 
+														available from multiple 
+														suppliers --- I got 20 
+														for ~ $8 at Amazon.</span><span class="auto-style1">&nbsp; </span>
+														</td>
+														<td>
+														<img height="264" src="Headlamp.jpg" width="400" class="auto-style1"></td>
+													</tr>
+												
+												
+												
+												
+												
+												
+												
+												<br><hr><br><table style="width: 100%">
+																								
+												<tr>
+													<td class="style18"><table style="width: 100%">
+
+													<tr>
+													<td class="style18">
+			<span class="style5"><font face="Arial" size="2">
+							<span class="style18">
+													<strong>Horn: </strong>&nbsp;The 
+													typical buzzer horn draws 
+													considerable current 
+													---often 10 amps or more.&nbsp; 
+													The accessory leads from the 
+													controller can handle 
+													limited current --- on the 
+													order of 1 amp.&nbsp; The 
+													circuit on the right from 
+													page 22 of the manual shows 
+													how one can use a 24 volt 
+													relay to control a high 
+													current 24 volt horn.&nbsp;&nbsp;&nbsp;
+													
+													<td>
+			<span class="style5"><font face="Arial" size="2">
+							<span class="style18">
+													<img height="366" src="24VHorn.jpg" width="500">
+												
+											
+												<tr>
+													<td class="style18">I 
+													already had a 12 volt horn 
+													and 12 volt relay so I 
+													hooked them up just like in 
+													the previous circuit only 
+													powered from 12 volts.&nbsp;&nbsp; 
+													The ground from the 
+													controller that turns on 
+													the relay is not pulse width 
+													modulated like the lamp 
+													control leads; it has a 100% 
+													duty cycle.&nbsp;&nbsp; <br>
+													<br>The drawback with this 
+													arrangement is that it runs 
+													down one battery quicker 
+													than the other --- if one 
+													blows the horn a lot.&nbsp;
+													</td>
+													<td>
+													<img height="366" src="12VHorn.jpg" width="500"><br>
+													</td>
+												</tr>
+												
+											
+											<br><hr><br>
+
+											<table style="width: 100%">
+												<tr>
+													<td><span class="style18">
+													<strong>Brakes: </strong>&nbsp; 
+													The convenience of having 
+													the brake control on the 
+													handset convinced me to 
+													purchase one of the Integral 
+													Circuits Brake Controllers.&nbsp; 
+													They make two versions, the 
+													BC-100 that works with a 
+													storage reservoir (air tank) 
+													and the BC-50 that doesn't 
+													need a reservoir.&nbsp;&nbsp;
+													<br><br>&nbsp;I chose the 
+													simpler BC-50.&nbsp; The 
+													connections of the various 
+													components is&nbsp; shown in 
+													the diagram on the right.&nbsp;&nbsp; 
+													When brakes are called for 
+													on the handset the signal is 
+													sent to the Critter 
+													Controller and then on to 
+													the BC-50.&nbsp; The BC-50 
+													will then turn on the 
+													compressor.&nbsp; The BC-50 
+													monitors the pressure and 
+													when it gets to the 
+													requested pressure the power 
+													to the compressor is turned 
+													off (usually less than a 
+													second).&nbsp;&nbsp;&nbsp; The 
+													line and brake cylinder will 
+													retain the air pressure and 
+													the check valve prevents it 
+													from bleeding off through 
+													the leaky compressor valves.&nbsp;&nbsp; 
+													When the call for releasing 
+													the brakes is entered into 
+													the handset (brake button 
+													released)&nbsp; the signal is 
+													sent to the Critter 
+													Controller and then on to 
+													the BC-50 where it operates 
+													the release valve to let the 
+													air out of the cylinder. <br>
+													<br>The BC-50 together with 
+													the Critter Controller monitors the 
+													air pressure and uses the 
+													combination of turning on 
+													the compressor to increase 
+													the pressure and operating 
+													the release valve to reduce 
+													the pressure.<br><br>There 
+													is a possibility that this 
+													system can oscillate so 
+													Laura suggests 1/16&quot; ID hose 
+													be used to the release valve 
+													and the pressure sensing 
+													port.&nbsp; (The normal 
+													Clippard hose is 1/8&quot; ID.)&nbsp; Also, the pressure sensing 
+													should be as close as 
+													possible to the cylinder.&nbsp;&nbsp; 
+													I didn't have problems with 
+													oscillations but did put a 
+													restricted exhaust fitting&nbsp; 
+													(~.05&quot; ID) on the &nbsp;release 
+													valve. &nbsp;
+													</span></td>
+													<td class="style5">
+													<font face="Arial" size="2">
+													<span class="style18">
+													<img height="812" src="BrakePlumbing.jpg" width="600">
+												
+												<tr>
+													<td class="style18">
+													This photo shows the BC-50 
+													on the right and the 
+													Clippard ET-2-12 normally 
+													closed 12 volt valve on the 
+													left.&nbsp; </td>
+													<td>
+													<img height="426" src="BC2.jpg" width="600"></td>
+												</tr>
+												<tr>
+													<td class="style18">This 
+													shows the Brake Controller electrical 
+													connections.&nbsp;&nbsp; The 
+													controller housing and many 
+													of the components are used 
+													for both the BC-50 and 
+													BC-100.&nbsp; As noted, 
+													there is a place to connect 
+													an Apply Valve that is not 
+													used in the BC-50 model.&nbsp;
+													<br><br>The unit is powered 
+													with 24 volts and converts 
+													the 24 volts to 12 volts for 
+													the compressor and the 
+													release valve.&nbsp;&nbsp;&nbsp;&nbsp; </td>
+													<td>
+													<img height="543" src="BCCkt.jpg" width="600"></td>
+												</tr>
+												<tr>
+													<td class="style18">This 
+													shows the connections for 
+													pressure sensing.&nbsp; 
+													Apparently the unit can also 
+													be used for vacuum brakes.&nbsp; </td>
+													<td>
+													<img height="473" src="BCHoses.jpg" width="600"></td>
+												</tr>
+																							
+										
+											
+												<tr>
+													<td class="style18">The 
+													Compressor comes with rubber 
+													feet but no easy way to 
+													secure it.&nbsp; The rubber&nbsp; 
+													feet have nipples on each 
+													end.&nbsp; The nipples on 
+													one end&nbsp; secures the 
+													foot to the compressor.&nbsp;&nbsp; 
+													I attached&nbsp; 3/32&quot; X 
+													1/2&quot; base plates to the 
+													other side of each pair of 
+													feet as shown in the photo.&nbsp;&nbsp; 
+													That is 10-32 screws that 
+													secure the base plates to 
+													the Drive Cover.&nbsp;&nbsp;&nbsp;&nbsp; </td>
+													<td>
+													<img height="568" src="CompressorMount.jpg" width="600"></td>
+												</tr>
+																							
+										
+											
+													</table>
+													<hr>
+													<img height="1210" src="ModifiedWiring1.jpg" width="998"><br>
+													Above is a modified wiring 
+													diagram matching the way I 
+													actually have the Railbus 
+													wired. <br><br><br>
+													<img height="835" src="Wiring.jpg" width="1000"><br>
+													<br>This shows all the 
+													electrical/electronic 
+													components except the 
+													headlamps, key switch and 
+													ammeter.&nbsp; (Those 
+													components are connected by 
+													the cable on the right going 
+													up to the underside of the 
+													roof.)&nbsp;&nbsp;&nbsp; All 
+													these components are 
+													attached to the drive cover 
+													which lifts out after the 
+													power leads (lower left) and 
+													motor leads (lower right) 
+													are disconnected from the 
+													terminal blocks and several 
+													cables are unplugged.&nbsp;
+													<br>&nbsp;<br><br>
+													<img height="827" src="LeftSide.jpg" width="1000"><br>
+													<br>The body was removed for 
+													photo above showing the left 
+													side of the Drive Cover.&nbsp; 
+													That is silicone caulk 
+													covering the Fuse Block 
+													input power stud.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+													<br><br>
+													<img height="883" src="Back.jpg" width="1000"><br>
+													<br>This shows the back of 
+													the Drive Cover.&nbsp; The 
+													aluminum plate across the 
+													bottom is attached to the 
+													frame and together with the 
+													batteries on the front side 
+													hold the cover in place.&nbsp; 
+													The vertical plate on the 
+													left with the four screws&nbsp; 
+													is also attached to the 
+													frame and covers the motor 
+													power wires and the 
+													speedometer pickup cable .&nbsp;&nbsp; 
+													The controller is secured to 
+													the cover by the aluminum 
+													plate across the top edge of 
+													the cover.&nbsp;&nbsp; The 
+													aluminum plate attached to 
+													the top of the controller 
+													provides a surface to secure 
+													the radio unit with a couple 
+													wire ties.&nbsp;&nbsp;&nbsp;&nbsp;
+													<br><br>
+													<img height="882" src="Right.jpg" width="1000"><br>
+													<br>This last photo shows 
+													the right side. The hose 
+													with the long brass fitting 
+													above the compressor is the 
+													feed to the brake cylinder.&nbsp; 
+													The cable with large 
+													connectors on the right side 
+													is the 12 volt power for the 
+													Horn unit.&nbsp;&nbsp;&nbsp;
+													<br><br><br><hr>
+													<br>
+													<table style="width: 100%">
+														<tr>
+															<td>
+			<span class="style5">
+			<span class="style5"><font face="Arial" size="2">
+															<font face="Arial" size="2">
+		
+ 
+      				<span class="style10">
+							<span class="style18">
+		
+ 
+				<p class="style13">
+				Additional design information is at the following 
+		links:</p>
+				<p class="style13"><a href="../RailbusOverview.htm">Return to 
+				Railbus Overview</a><br>
+				<a href="../RailbusFrame/RailbusFrame.htm">Railbus Frame</a><br>
+						<a href="../RailbusDrive/RailbusDrive.htm">Railbus Drive</a><br>
+				<a href="../RailbusBody/RailbusBody.htm">Railbus Body</a><br>
+				<a href="../RaibusController/RailbuscController.htm">Railbus Controller</a><br>
+				<a href="../RailbusChargers/RailbusCharger.htm">Railbus Chargers</a><p class="style13">&nbsp;<p class="style13"></span>
+				
+															
+															</td>
+														</tr>
+													</table>
+									
+						
+						<table style="width: 100%">
+							<tr>
+								<td class="style10">
+			<span class="style5"><font face="Arial" size="2">
+      <table border="0" cellpadding="0" cellspacing="1" width="100%">
+        <tr>
+          <td width="50%">
+            <p align="center" class="style18"><font face="Arial">
+            <a href="../../index.htm">NLW
+            Home</a></font></td>
+          <td width="50%">
+            <p align="left"><font face="Arial"><a href="../index.htm">
+			<img border="0" src="../../Climax1.jpg" width="200" height="79" class="style18"></a></font></td>
+        </tr>
+      </table>
+  
+
