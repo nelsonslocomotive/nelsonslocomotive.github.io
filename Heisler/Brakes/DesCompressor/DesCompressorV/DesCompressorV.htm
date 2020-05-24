@@ -1,0 +1,268 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Compressor Design V</title>
+</head>
+
+<body>
+
+<div align="center">
+  <center>
+  <table border="0" cellpadding="0" cellspacing="1" width="720">
+    <tr>
+      <td>
+        <p align="center"> <font face="Arial"><b><font size="6">Cross Compound 
+        Compressor Design V<br>
+        Design Improvements</font><font face="Arial" size="5"><br>
+        </font>
+        </b><font face="Arial" size="2">Nelson Riedel, <a href="mailto:Nelson@NelsonsLocomotive.com">Nelson@NelsonsLocomotive.com</a><br>
+        1/25/2006, last updated </font></font><font size="2" face="Arial">
+        <!--webbot
+        bot="Timestamp" S-Type="EDITED" S-Format="%m/%d/%Y" startspan -->06/01/2006<!--webbot
+        bot="Timestamp" endspan i-checksum="12516" -->
+        </font></p>
+        <p align="left">The compressor was constructed as designed in the first 
+        four design sections and ran pretty well.&nbsp; </p>
+        <p>Recall that along the way the upper head was redesigned and later the 
+        the bore of the low pressure air cylinder was reduced.&nbsp;&nbsp; The 
+        change on the cylinder bore was due to an engineering error -- if I would have 
+        run the math on operating the compressor at ~ 100 psi steam pressure rather then 
+        ~ 200 psi steam pressure I'd have recognized the problem before making 
+        any chips.&nbsp;&nbsp; </p>
+        <p><b>Symmetry Problem: </b>All that said, I wasn't completely happy 
+        with the operation.&nbsp; The main problem was that after running for a 
+        while the operation became asymmetric ---- it would have a fast stroke 
+        in one 
+        direction and a very slow stroke in the other.&nbsp; This become so 
+        pronounced that the output rate decreased and the pump didn't speed up 
+        even if the air pressure on the output dropped to 20 or 30 psi.&nbsp; The 
+        slowdown was caused by the high pressure side of the air compressor becoming 
+        unbalanced and bottoming on one side of the stroke and be way off bottom 
+        on the other side. The effect of this unbalance was that the pressure on 
+        the low pressure side built well beyond the expected maximum of about 15 psi 
+        relative to the atmosphere.&nbsp; (The low pressure cylinder volume is about 
+        twice the high pressure cylinder volume.&nbsp; If everything is 
+        perfectly balanced, at the end of the low pressure stoke the pressure in the inter 
+        cylinder channel should be about 15 psi relative to the atmosphere.&nbsp; 
+        If the output piston is not symmetric, then the volume in one side of 
+        the high pressure cylinder available to receive the air from the low 
+        pressure is less than half and the pressure will be greater than the 15 
+        psi.)&nbsp;&nbsp; The unbalance can be caused by any small leak in a 
+        check valve or a steam valve.&nbsp; Anyone&nbsp; familiar with DC 
+        amplifiers will recognize the analogy of this problem to amplifier drift 
+        which was a constant headache with vacuum tube operational amplifiers 
+        (yes, I'm that old).&nbsp; The problem was confirmed by cracking the  
+        inter cylinder check valve plug on the side where the pressure was 
+        too high.&nbsp; The cracked plug had a small leak which bled off the 
+        excess pressure and the pump centered itself, the speed increased and the output 
+        rate increased. </p>
+        <p>Westinghouse solved this problem by putting a pressure relief  
+        on each end of the low pressure cylinder.&nbsp; I assume the relief was 
+        set in the 15 to 20 psi range.&nbsp; The effect of the relief going off 
+        is to allow the pressure on the two sides of the high pressure cylinder 
+        to equalize and the operation to become symmetric.&nbsp; I chose to 
+        ignore this relief when I designed the model (another engineering 
+        mistake). It actually ran pretty well with the one plug cracked slightly 
+        but that is at best a &quot;third order bug killer&quot;.&nbsp; (Note 
+        that Westinghouse didn't try to balance the many sources of unbalance 
+        but rather chose to fix the effect of the unbalance.)&nbsp; </p>
+        <p>I didn't have room for the pressure relief on the upper air cylinder 
+        head.&nbsp; I considered hanging it on the back but that wouldn't look 
+        so good, even if it was on the back.&nbsp; </p>
+        <p>Next solution was make a small leak in the system to allow air to 
+        bleed between the two sides of the low pressure cylinder.&nbsp; This was 
+        accomplished by simply drilling a hole in the low pressure air piston.&nbsp; 
+        I first tried a 0.040&quot; hole.&nbsp; The pump ran great!&nbsp; I could 
+        easily make the pump unbalanced by introducing a large leak by 
+        unscrewing one of the inter cylinder check valve plugs.&nbsp; Once the 
+        system was running unbalanced I tightened the plug and found it quickly 
+        returned to near symmetrical operation. </p>
+        <p>&nbsp;</p>
+        <p>The hole of course reduces efficiency.&nbsp; Well --- make the hole 
+        smaller.&nbsp; I enlarged the first hole and tapped it 4-40.&nbsp; I 
+        then took a 4-40 stainless set screw and drilled a 0.0135&quot; hole (#80 
+        drill) in it and installed it in the piston.&nbsp; That worked too and the loss seemed to be minor since the 
+        pressure built as it did without the hole to about 100 psi but then the 
+        pump continued to run slowly and the rate of pressure build was very 
+        slow ----- the leak was causing a problem,&nbsp;&nbsp; </p>
+        <p>The leak has a good characteristic ---- very little loss if the pump 
+        is running fast.&nbsp; When the pump becomes unbalanced it runs much 
+        slower and the leak can do the job of balancing&nbsp; the pressure and 
+        in turn causing the high pressure piston&nbsp; to return to center.&nbsp; </p>
+        <p>The bad characteristic of the leak --- the pump never completely 
+        stops.&nbsp; <b>Not elegant!&nbsp; </b></p>
+        <p><b>Pressure Switch:&nbsp; </b>The prototype used a pressure switch to 
+        turn the compressor on when the pressure dropped and turn it off when the 
+        correct pressure was reached --- similar to the shop air compressor.&nbsp;&nbsp; 
+        The switch shut the compressor off well below the stall pressure so the 
+        compressor 
+        tended to run fast even when near the maximum pressure.&nbsp;&nbsp; That 
+        is exactly what I need --- a switch that would shut the compressor off 
+        when the pressure reaches an acceptable level and while it is still 
+        running pretty fast to minimize the loss due to the leak introduced  
+        in the low pressure piston.&nbsp; The compressor ran pretty fast up to about 
+        90 psi output air pressure with 100 psi steam supply pressure.&nbsp;&nbsp;&nbsp; 
+        The point of intolerable slowdown tracks the input steam pressure.</p>
+        <p>So .... what I needed was a pressure switch that shut off the steam 
+        input when the air pressure reached about 90% of the steam pressure.&nbsp; 
+        Sounds like a job for a pressure differential switch--- just like used on 
+        some old British roadsters to detect when one half the hydraulic brake 
+        system failed.&nbsp;&nbsp;&nbsp;&nbsp; That system used a little shuttle 
+        valve with each side fed by one side of the hydraulic system&nbsp;&nbsp; 
+        In our case we need a shuttle valve where one side in more sensitive 
+        than the other.&nbsp; </p>
+        <p>One way to make one side more sensitive is to use different piston 
+        sizes and a stepped cylinder.&nbsp; That sounded like too much work.&nbsp; 
+        Another option is to put an external piston rod on one side to reduce 
+        the effective area of that piston.&nbsp;&nbsp; I did a crude first try 
+        using 5/16&quot; pistons and a 3/16&quot; rod on one side.&nbsp;&nbsp; The 
+        effective areas of the two pistons were 0.49 sq in and .077 sq in.&nbsp; 
+        This system was balanced when the pressure on the large piston (the air 
+        side) was 64% of the small piston (the steam side) For example, if the 
+        steam side was 100 psi, then it would balance with the air pressure at 
+        64 psi.&nbsp; It takes some pressure unbalance to move the shuttle --- 
+        maybe 20 psi so it was anticipated the shuttle would move when the air 
+        pressure was ~84 psi (turn off) and at 44 psi (turn on).&nbsp; This 
+        valve actually worked quite well.&nbsp;&nbsp; </p>
+        <p>The valve worked so well that I decided to improve upon it. It would 
+        be nice if the low pressure turn on was a bit higher.&nbsp; The high 
+        pressure turn off could also be a bit higher --- it was running pretty 
+        fast when it turned off.&nbsp; So --- less difference between the 
+        effective area of the two pistons.&nbsp; It would also be nice to have 
+        less difference between the high pressure turn off and the low pressure 
+        turn on----- bigger pistons to reduce the unbalance required to move the 
+        piston..&nbsp;&nbsp; The next attempt was 3/8&quot; pistons and a 3/16&quot; rod 
+        on the one side.&nbsp; The two effective areas in this version were 0.110 
+        sq in and 0.082 sq in.&nbsp; The system balance is this case is when the 
+        large piston has 75% of the pressure of the small piston.&nbsp;&nbsp; 
+        For 100 psi steam supply, balance is at 75 psi air.&nbsp; If we assume 
+        the large piston will move at 20 psi differential then the high pressure 
+        turn off will be at ~ 95 psi and low pressure turn on will be at ~55 psi.&nbsp; This variation also switched&nbsp; close to these calculated 
+        pressures--- about 90 psi at the top and&nbsp; about 
+        55 psi.&nbsp; I used several different pressure gauges for these tests 
+        --- the gauges differ more than 5% at the top end so one should read too 
+        much into slight variations in the measured switch points.&nbsp; &nbsp;&nbsp; </p>
+        <p align="center">
+        <img border="0" src="Switch.jpg" width="700" height="300"></p>
+        <p>The sketch above shows a cross section of the switch.&nbsp; The 
+        design is similar to the compressor main valve and  
+        uses the same 3/8&quot; OD (#010) Viton O-Rings for piston rings.&nbsp; 
+        A&nbsp; 5/16&quot; OD (#008) Viton O-Ring 
+        is used for the rod seal.&nbsp; The plug in the bottom also uses the 
+        #010 O-Ring 
+        for the seal&nbsp; --- that was the easiest way I could figure to make a compact 
+        reliable seal.&nbsp; Drawings for the individual parts are below.</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+        <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse" bordercolor="#111111" width="100%" id="AutoNumber1">
+          <tr>
+            <td width="50%"><b>Switch Body: </b>The body is made from 9/16&quot; 
+            hex brass bar stock.&nbsp; The input and output ports are pieces of 5/16&quot; 
+            diameter brass rod silver soldered to hex stock. The 1/8 compression 
+            fitting is made from a 1/8&quot; tube compression coupling. All three of 
+            these ports have a 1/4&quot; diameter stub that fit into holes in the 
+            body and are silver soldered in place.&nbsp; The 1/8&quot; tube connects 
+            to the lubricator and delivers steam oil to the switch and on to the 
+            steam side of the compressor.&nbsp;&nbsp; Not shown are a pair of&nbsp; 
+            1-72 screw holes in the top to hold the top cover.&nbsp; The 
+            holes should be drilled in top cover first and it then used as a 
+            template to located the holes in the body.&nbsp; </td>
+            <td width="50%">
+            <img border="0" src="SwitchBody.jpg" width="350" height="400"></td>
+          </tr>
+          <tr>
+            <td width="50%"><b>Switch Sleeve:</b>&nbsp;&nbsp; The sleeve is also 
+            turned from 9/16&quot; hex brass.&nbsp;&nbsp;The upper part slides into 
+            the body.&nbsp; There will be a 1/32&quot; gap between the upper end 
+            of the sleeve and upper end of the recess in the body.&nbsp; This 
+            gap provides a chamber for the input steam and a place to mix the 
+            steam oil with the steam.&nbsp; The narrow groove in the side is 
+            used to position eight 0.04&quot; steam holes in the side of the sleeve.&nbsp; 
+            The wider groove provides a channel between the steam holes and the 
+            output port.&nbsp; The Compression fitting is identical to the one 
+            used on the body.&nbsp; This tube connects to the output of the air 
+            compressor.&nbsp;&nbsp;&nbsp; Not shown are a pair of&nbsp; 1-72 
+            tapped screw holes in the bottom to hold the plug.&nbsp; The 
+            holes should be drilled in the plug first and it then used as a 
+            template to located the holes in the sleeve.&nbsp; 
+            <p>The sleeve should be a loose fit (~.003&quot;) inside the body.&nbsp; 
+            The sleeve is retained by Loctite 672. </td>
+            <td width="50%">
+            <img border="0" src="SwitchSleeve.jpg" width="350" height="400"></td>
+          </tr>
+          <tr>
+            <td width="50%"><b>Switch Piston:</b> The piston is turned from 3/8&quot; 
+            diameter brass rod.&nbsp; The O-Ring grooves are 0.7&quot; wide and have 
+            an ID of 0.245&quot;.&nbsp; Not show is a slot sawed in the bottom for a 
+            screwdriver blade to keep the piston from rotating when the knob 
+            screw is tightened (or loosened).</td>
+            <td width="50%">
+            <img border="0" src="SwitchPiston.jpg" width="350" height="350"></td>
+          </tr>
+          <tr>
+            <td width="50%"><b>Switch Top Cap:</b>&nbsp; The top cap is turned 
+            from 1/2&quot; brass.&nbsp; </td>
+            <td width="50%">
+            <p align="center">
+            <img border="0" src="SwitchTopCap.jpg" width="300" height="275"></td>
+          </tr>
+          <tr>
+            <td width="50%"><b>Switch Plug: </b>The plug is turned from 9/16&quot; hex 
+            brass</td>
+            <td width="50%">
+            <img border="0" src="SwitchPlug.jpg" width="350" height="300"></td>
+          </tr>
+          <tr>
+            <td width="50%"><b>Switch Knob: </b>The knob is turned from 3/8&quot; 
+            brass rod. </td>
+            <td width="50%">
+            <img border="0" src="SwitchKnob.jpg" width="350" height="300"></td>
+          </tr>
+        </table>
+        <p><b>Check Valves:</b> One of the sources of the unbalance described 
+        earlier was very small leaks in the check valves.&nbsp; I decided to 
+        replace the Clippard based poppet check valves with the more robust 
+        piston type check valves from McMaster-Carr (#7768K15).&nbsp; The piston valves are 
+        described at <a href="../../CheckValves/CheckValve.htm">Check Valves </a>.&nbsp; This piston check has a larger passage area then the specific 
+        poppet valve used so the pump should run a bit faster and more 
+        efficiently.&nbsp; The piston type valves can be turned down to  
+        essentially the same dimensions as the poppet valves for the input and 
+        inter cylinder valves (see drawings for HS531 &amp; HS532 in Design part 
+        II).&nbsp; The output check valves can't be machined&nbsp; to match the 
+        poppet valve HS530.&nbsp; What I did was to make the recess for the 
+        valve in the Output Check Valve Housing&nbsp; (HM538) deeper --- from 
+        0.484&quot; to&nbsp; 0.562&quot;.&nbsp;&nbsp; The hole in the bottom of the recess 
+        was expanded to 1/4' MPT.&nbsp;&nbsp;&nbsp; The output end of the check 
+        valve was turned to 9/32&quot; and an adaptor turned to fit on the end of the 
+        check valve.&nbsp; The adaptor had a female end that accepted the end of 
+        the check valve.&nbsp; The two parts were held together with Loctite 
+        672.&nbsp; The other end of the adaptor has a 1/4&quot; MTP male thread.&nbsp; 
+        (In hindsight I'd recommend that the existing 1/8&quot; NPT threads on the valve 
+        output be 
+        used and the housing drilled and tapped for 1/8&quot; NPT.)&nbsp;&nbsp; The 
+        input end of the output check valve was turned to match the poppet valve 
+        per HS530.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+        <p>These design improvements worked ---- See Compressor Construction Part 
+        IV.</p>
+        <p>&nbsp;&nbsp; </p>
+      <table border="0" cellpadding="0" cellspacing="1" width="100%">
+        <tr>
+          <td width="50%">
+            <p align="center"><font face="Arial Black" size="5">
+            <a href="../../../heisler.htm">Heisler Project</a><br>
+            <a href="../../../../index.htm">NLW
+            Home</a></font></td>
+          <td width="50%">
+            <p align="left">
+            <img border="0" src="../../../../Climax1.jpg" width="200" height="79"></td>
+        </tr>
+      </table>
+  <center>
+  <p></p>
+  </center>
+
+
+</body>
